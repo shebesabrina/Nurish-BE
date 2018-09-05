@@ -1,25 +1,37 @@
-# README
+# Nūish Backend Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Initial Setup
 
-Things you may want to cover:
+1. Clone this repository and rename the repository to `nurish_be` in one command
 
-* Ruby version
+  ```shell
+  https://your-github-username.github.io/nurish/index.html
+  ```
+2. Change directory into the `nurish_be` directory
 
-* System dependencies
+3. Install the dependencies
 
-* Configuration
+  ```shell
+  bundle
+  ```
 
-* Database creation
+3. Set up the database
 
-* Database initialization
+  ```shell
+  rake db:create
+  rake db:migrate
+  rake db:seed
+  ```
 
-* How to run the test suite
+4. Run test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+  ```shell
+    rspec
+  ```
 
-* Deployment instructions
+## Running the Server Locally
 
-* ...
-# Nurish-BE
+To see your code in action locally, you need to fire up a development server. Use the command:
+
+```shell
+rails s
