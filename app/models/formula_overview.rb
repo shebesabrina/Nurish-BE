@@ -1,0 +1,2 @@
+class FormulaOverview < ApplicationRecord
+end
