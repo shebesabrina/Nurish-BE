@@ -1,0 +1,56 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/sabrinarobinson/Turing/4mod/projects/nurish_be/app/models/formula_overview.rb": [
+        1,
+        null
+      ],
+      "/Users/sabrinarobinson/Turing/4mod/projects/nurish_be/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/sabrinarobinson/Turing/4mod/projects/nurish_be/spec/models/formula_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/sabrinarobinson/Turing/4mod/projects/nurish_be/app/models/formula.rb": [
+        1,
+        null
+      ],
+      "/Users/sabrinarobinson/Turing/4mod/projects/nurish_be/spec/requests/api/v1/formula_request_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/sabrinarobinson/Turing/4mod/projects/nurish_be/app/controllers/api/v1/formulas_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/sabrinarobinson/Turing/4mod/projects/nurish_be/app/controllers/application_controller.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1536593893
+  }
+}
