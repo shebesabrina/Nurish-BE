@@ -4,4 +4,6 @@ class Api::V1::FormulasController < ApplicationController
     render json: Formula.all
   end
 
+
+
 end
