@@ -4,6 +4,8 @@ class Api::V1::FormulasController < ApplicationController
     render json: Formula.all
   end
 
-
+  def show
+    render json: Formula.find(params[:id])
+  end
 
 end
