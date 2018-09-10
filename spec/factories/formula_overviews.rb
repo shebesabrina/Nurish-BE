@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :formula_overview do
-    calorie_density "MyText"
-    allergens "MyText"
+    sequence(:caloric_dencity) { |n| "formula #{n}" }
+    sequence(:allergens) { |n| "soy #{n}" }
   end
 end
