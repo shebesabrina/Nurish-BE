@@ -8,10 +8,12 @@ class CreateFormulaOverviews < ActiveRecord::Migration[5.2]
       t.string :protein_source
       t.string :carbohydrate_source
       t.string :fat_source
+      t.string :sucralose
       t.string :dietary_fibre
       t.string :fibre_source
       t.string :n6n3_ratio
       t.string :MCT_LCT
+      t.string :omega_3_fatty_acids
       t.string :water_content
       t.string :osmolality
       t.string :kosher
