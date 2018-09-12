@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_10_165921) do
+ActiveRecord::Schema.define(version: 2018_09_12_015906) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -49,6 +49,19 @@ ActiveRecord::Schema.define(version: 2018_09_10_165921) do
     t.text "ingredients"
     t.string "hcpc"
     t.string "restrictions"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "nutritional_contents", force: :cascade do |t|
+    t.string "calories"
+    t.string "protein"
+    t.string "carbohydrates"
+    t.string "fiber"
+    t.string "fat"
+    t.string "sodium"
+    t.string "potassium"
+    t.string "service_size"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

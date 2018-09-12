@@ -1,0 +1,467 @@
+[
+  {
+    "calories": "25",
+    "fat": "0 g",
+    "sodium": "15 mg",
+    "potassium": "35 mg",
+    "carbohydrate": "0 g",
+    "protein": "6 g",
+    "Calcium": "",
+    "serving_size": "1 scoop or packet"
+  },
+  {
+    "calories": "230",
+    "protein": "10 g",
+    "carbohydrate": "34 g",
+    "sugars": "14 g",
+    "fat": "6 g",
+    "sodium": "265 mg",
+    "potassium": "410 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "300",
+    "fat": "0.1 g",
+    "sodium": "115 mg",
+    "potassium": "340 mg",
+    "carbohydrate": "30 g",
+    "fiber": "3 g",
+    "sugars": "20 g",
+    "protein": "7 g",
+    "serving_size": "880 g"
+  },
+  {
+    "calories": "190",
+    "protein": "16 g",
+    "carbohydrate": "17 g",
+    "fiber": "3 g",
+    "sugars": "0.5 g",
+    "fat": "7 g",
+    "sodium": "125 mg",
+    "potassium": "350 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "240",
+    "protein": "15 g",
+    "carbohydrate": "32 g",
+    "sugars": "15 g",
+    "fat": "6 g",
+    "sodium": "250 mg",
+    "potassium": "400 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "270",
+    "protein": "27 g",
+    "carbohydrate": "22 g",
+    "fiber": "2 g",
+    "sugars": "13 g",
+    "fat": "8 g",
+    "sodium": "265 mg",
+    "potassium": "700 mg",
+    "serving_size": "325 ml"
+  },
+  {
+    "calories": "80",
+    "protein": "18 g",
+    "fat": "0 g",
+    "carbohydrate": "1 g",
+    "sodium": "45 mg",
+    "potassium": "105 mg",
+    "serving_size": "227 g & 588 g"
+  },
+  {
+    "calories": "360",
+    "protein": "14 g",
+    "carbohydrate": "45 g",
+    "fiber": "3 g",
+    "sugars": "22 g",
+    "fat": "14 g",
+    "sodium": "200 mg",
+    "potassium": "360 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "180",
+    "protein": "8.8  g",
+    "fat": "0.5 g",
+    "carbohydrate": "36 g",
+    "sodium": "65 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "230",
+    "protein": "6.8 g",
+    "carbohydrate": "32 g",
+    "sugars": "14 g",
+    "fat": "8 g",
+    "sodium": "115 mg",
+    "potassium": "250 mg",
+    "serving_size": "142 g"
+  },
+  {
+    "calories": "359",
+    "protein": "13 g",
+    "fat": "11 g",
+    "carbohydrate": "52 g",
+    "sodium": "310 mg",
+    "potassium": "460 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "300",
+    "fat": "0.1 g",
+    "sodium": "115 mg",
+    "potassium": "340 mg",
+    "carbohydrate": "30 g",
+    "fiber": "3 g",
+    "sugars": "20 g",
+    "protein": "7 g",
+    "serving_size": "880 g & 40 g"
+  },
+  {
+    "calories": "240",
+    "protein": "10 g",
+    "fat": "4 g",
+    "carbohydrate": "41 g",
+    "sugars": "15 g",
+    "sodium": "265 mg",
+    "potassium": "410 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "150",
+    "fat": "0.5g",
+    "sodium": "60 mg",
+    "potassium": "260 mg",
+    "carbohydrate": "14 g",
+    "fiber": "3 g",
+    "sugars": "7 g",
+    "protein": "5 g",
+    "serving_size": "8 Per sachet (20 g)"
+  },
+  {
+    "calories": "270",
+    "protein": "27 g",
+    "carbohydrate": "22 g",
+    "fiber": "2 g",
+    "sugars": "13 g",
+    "fat": "8 g",
+    "sodium": "265 mg",
+    "potassium": "700 mg",
+    "serving_size": "325 ml"
+  },
+  {
+    "calories": "265",
+    "protein": "12 g",
+    "carbohydrate": "33 g",
+    "fiber": "2 g",
+    "fat": "10 g",
+    "sodium": "250 mg",
+    "potassium": "390 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "375",
+    "protein": "19 g",
+    "carbohydrate": "41 g",
+    "fiber": "6 g",
+    "fat": "15 g",
+    "sodium": "380 mg",
+    "potassium": "500 mg",
+    "serving_size": "300 ml"
+  },
+  {
+    "calories": "250",
+    "protein": "16 g",
+    "carbohydrate": "28 g",
+    "fat": "8.5 g",
+    "sodium": "220 mg",
+    "potassium": "400 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "250",
+    "protein": "16 g",
+    "carbohydrate": "31 g",
+    "fiber": "3.8 g",
+    "fat": "8.5 g",
+    "sodium": "220 mg",
+    "potassium": "400 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "300",
+    "protein": "13.5 g",
+    "carbohydrate": "39 g",
+    "fat": "10 g",
+    "sodium": "280 mg",
+    "potassium": "480 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "300",
+    "protein": "13.5 g",
+    "carbohydrate": "41 g",
+    "fiber": "3.8 g",
+    "fat": "10 g",
+    "sodium": "280 mg",
+    "potassium": "480 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "375",
+    "protein": "17 g",
+    "carbohydrate": "44 g",
+    "fat": "15 g",
+    "sodium": "325 mg",
+    "potassium": "600 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "375",
+    "protein": "17 g",
+    "carbohydrate": "45 g",
+    "fiber": "3.8 g",
+    "fat": "15 g",
+    "sodium": "325 mg",
+    "potassium": "600 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "500",
+    "protein": "21 g",
+    "carbohydrate": "54 g",
+    "fat": "23 g",
+    "sodium": "375 mg",
+    "potassium": "525 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "120",
+    "fat": "14 g",
+    "carbohydrate": "0 g",
+    "protein": "0 g",
+    "serving_size": "15 ml (14 g or 1 Tbsp)"
+  },
+  {
+    "calories": "67.5",
+    "Total fat": "7.5 g",
+    "serving_size": "1 Tbsp (15 ml)"
+  },
+  {
+    "protein": "21.6 g",
+    "fat": "23.7 g",
+    "calories": "475",
+    "sodium": "225 mg",
+    "potassium": "225 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "225",
+    "protein": "22.5 g",
+    "fat": "7.5 g",
+    "carbohydrate": "16.8 g",
+    "sodium": "500 mg",
+    "potassium": "740 mg",
+    "serving_size": "340 ml (54 g packet)"
+  },
+  {
+    "calories": "250",
+    "protein": "10 g",
+    "carbohydrate": "32 g",
+    "fat": "10 g",
+    "sodium": "120 mg",
+    "potassium": "400 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "250",
+    "protein": "10 g",
+    "carbohydrate": "32 g",
+    "fiber": "1 g",
+    "sugars": "5.5 g",
+    "fat": "10 g",
+    "sodium": "120  mg",
+    "potassium": "400 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "300",
+    "protein": "19 g",
+    "carbohydrate": "28 g",
+    "fiber": "1.3 g",
+    "fat": "13.5 g",
+    "sodium": "180 mg",
+    "potassium": "450 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "375",
+    "protein": "17 g",
+    "carbohydrate": "47 g",
+    "sugars": "8 g",
+    "fat": "14 g",
+    "sodium": "225 mg",
+    "potassium": "525 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "250",
+    "protein": "23 g",
+    "carbohydrate": "19 g",
+    "fiber": "1 g",
+    "fat": "9.5 g",
+    "sodium": "175 mg",
+    "potassium": "375 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "protein": "16 g",
+    "fat": "11.8 g",
+    "carbohydrate": "23.8 g",
+    "Dietary fiber": "3 g",
+    "calories": "265",
+    "sodium": "240 mg",
+    "potassium": "350 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "15",
+    "fat": "0 g",
+    "sodium": "10 mg",
+    "carbohydrate": "4 g",
+    "protein": "0 g",
+    "serving_size": "15 ml (4.5 g or 1 Tbsp)"
+  },
+  {
+    "calories": "4",
+    "fat": "0 g",
+    "sodium": "15 mg",
+    "potassium": "5 mg",
+    "carbohydrate": "1 g",
+    "protein": "0 g",
+    "serving_size": "1.4 g (1 tsp or stick pack. This information applies to the 237 ml product format)"
+  },
+  {
+    "calories": "477",
+    "protein": "20 g",
+    "carbohydrate": "52 g",
+    "fat": "21 g",
+    "sodium": "170 mg",
+    "potassium": "420 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "calories": "300",
+    "fat": "0.6 g",
+    "sodium": "152 mg",
+    "potassium": "350 mg",
+    "carbohydrate": "68 g",
+    "protein": "6.2 g (amino acids)",
+    "serving_size": "300 ml (80 g packet)"
+  },
+  {
+    "protein": "13.5 g (amino acids)",
+    "fat": "2 g",
+    "calories": "300",
+    "sodium": "183 mg",
+    "potassium": "294 mg",
+    "serving_size": "300 ml (79.5g packet)"
+  },
+  {
+    "calories": "300",
+    "fat": "0.8 g",
+    "sodium": "185 mg",
+    "potassium": "281 mg",
+    "carbohydrate": "61.7 g",
+    "protein": "11.5 g",
+    "serving_size": "300 ml (80.4 g packet)"
+  },
+  {
+    "calories": "250",
+    "protein": "9.5 g",
+    "carbohydrate": "33 g",
+    "fiber": "2 g",
+    "fat": "9.5 g",
+    "sodium": "190 mg",
+    "potassium": "425 mg",
+  },
+  {
+    "calories": "360",
+    "protein": "13 g",
+    "carbohydrate": "41 g",
+    "fiber": "5 g",
+    "fat": "16 g",
+    "sodium": "280 mg",
+    "potassium": "580 mg",
+    "serving_size": "300 ml"
+  },
+  {
+    "calories": "493",
+    "protein": "17.5 g",
+    "carbohydrate": "54 g",
+    "fat": "23 g",
+    "sodium": "175 g",
+    "potassium": "580 g",
+    "serving_size": "100 g"
+  },
+  {
+    "calories": "250",
+    "protein": "7.5 g",
+    "carbohydrate": "28 g",
+    "sugars": "6 g",
+    "fat": "12  g",
+    "sodium": "120 mg",
+    "potassium": "375 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "250",
+    "protein": "7.5 g",
+    "carbohydrate": "29 g",
+    "fiber": "1.5 g",
+    "sugars": "6 g",
+    "fat": "12 g",
+    "sodium": "120 mg",
+    "potassium": "375 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "250",
+    "protein": "7.5 g",
+    "carbohydrate": "34 g",
+    "sugars": "6 g",
+    "fat": "9.5 g",
+    "sodium": "120 mg",
+    "potassium": "375 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "375",
+    "protein": "11.3 g",
+    "carbohydrate": "45 g",
+    "fat": "17 g",
+    "sodium": "183 mg",
+    "potassium": "495 mg",
+    "serving_size": "250 ml"
+  },
+  {
+    "calories": "355",
+    "protein": "10 g",
+    "fat": "17.8 g",
+    "carbohydrate": "39 g",
+    "sodium": "164 mg",
+    "potassium": "309 mg",
+    "serving_size": "237 ml"
+  },
+  {
+    "protein": "12.3 g",
+    "fat": "12.1 g",
+    "carbohydrate": "64.7 g",
+    "sodium": "226 mg",
+    "potassium": "616 mg",
+    "serving_size": "100 g"
+  }
+]
