@@ -56,12 +56,13 @@ ActiveRecord::Schema.define(version: 2018_09_12_015906) do
   create_table "nutritional_contents", force: :cascade do |t|
     t.string "calories"
     t.string "protein"
-    t.string "carbohydrates"
+    t.string "carbohydrate"
     t.string "fiber"
+    t.string "sugar"
     t.string "fat"
     t.string "sodium"
     t.string "potassium"
-    t.string "service_size"
+    t.string "serving_size"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
