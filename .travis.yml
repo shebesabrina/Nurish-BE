@@ -3,12 +3,13 @@ rvm:
  - 2.4.1
 services:
 - postgresql
-install: gem install rails
-before_script:
+install:
+- gem install rails
 - bundle install
-- rake db:{create,migrate,seed}
+script:
+- bundle exec rake db:{create,migrate,seed}
 notifications:
   email: false
 deploy:
   provider: heroku
-  
+  api_key: false
