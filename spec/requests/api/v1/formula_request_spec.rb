@@ -29,15 +29,17 @@ describe 'Formula API' do
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     water = create(:formula, ingredients: 'WATER')
 
-    # get "/api/v1/formulas?allergens=#{corn_starch}"
-    # get "/api/v1/formulas?p=ingredients:#{corn_starch}"
-    get "/api/v1/formulas_allergens/#{corn_starch}"
+    # get "/api/v1/formulas?allergens=#{corn_starch_upcase}"
+    get "/api/v1/formulas?search=ingredients:corn"
+    # get "/api/v1/formulas_allergens/#{corn_starch_upcase}"
 
     formula = JSON.parse(response.body)
 
     expect(response).to be_successful
-    expect(formula["ingredients"]).to_not have_content(corn_starch_upcase)
-    expect(formula["ingredients"]).to_not have_content(corn_starch_downcase)
-    expect(formula["ingredients"]).to have_content(water)
+    # binding.pry
+    expect(formula.count).to eq(1)
+    expect(formula.first["ingredients"]).to_not have_content(corn_starch_upcase)
+    expect(formula.first["ingredients"]).to_not have_content(corn_starch_downcase)
+    expect(formula.first["ingredients"]).to have_content(water)
   end
 end
