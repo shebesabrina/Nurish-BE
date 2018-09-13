@@ -10,6 +10,7 @@ class CreateNutritionalContents < ActiveRecord::Migration[5.2]
       t.string :sodium
       t.string :potassium
       t.string :serving_size
+      t.references :formula, foreign_key: true
 
       t.timestamps
     end

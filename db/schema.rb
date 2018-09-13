@@ -36,9 +36,9 @@ ActiveRecord::Schema.define(version: 2018_09_12_015906) do
     t.string "lactose_free"
     t.string "lactose"
     t.string "low_residue"
+    t.bigint "formula_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "formula_id"
     t.index ["formula_id"], name: "index_formula_overviews_on_formula_id"
   end
 
@@ -63,9 +63,12 @@ ActiveRecord::Schema.define(version: 2018_09_12_015906) do
     t.string "sodium"
     t.string "potassium"
     t.string "serving_size"
+    t.bigint "formula_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["formula_id"], name: "index_nutritional_contents_on_formula_id"
   end
 
   add_foreign_key "formula_overviews", "formulas"
+  add_foreign_key "nutritional_contents", "formulas"
 end

@@ -23,4 +23,21 @@ describe 'Formula API' do
     expect(response).to be_successful
     expect(formula["id"]).to eq(id)
   end
+
+  it 'can get formulas that do not contain specific ingredients' do
+    corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
+    corn_starch_downcase = create(:formula, ingredients: 'corn starch')
+    water = create(:formula, ingredients: 'WATER')
+
+    # get "/api/v1/formulas?allergens=#{corn_starch}"
+    # get "/api/v1/formulas?p=ingredients:#{corn_starch}"
+    get "/api/v1/formulas_allergens/#{corn_starch}"
+
+    formula = JSON.parse(response.body)
+
+    expect(response).to be_successful
+    expect(formula["ingredients"]).to_not have_content(corn_starch_upcase)
+    expect(formula["ingredients"]).to_not have_content(corn_starch_downcase)
+    expect(formula["ingredients"]).to have_content(water)
+  end
 end
