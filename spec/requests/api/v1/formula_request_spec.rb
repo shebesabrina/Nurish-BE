@@ -43,4 +43,25 @@ describe 'Formula API' do
     expect(formula.first["ingredients"]).to_not eq(corn_starch_downcase)
     expect(formula.first.to_json).to eq(water.to_json)
   end
+
+  it 'can get formulas that do not contain multiple ingredient allergens' do
+    corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
+    corn_starch_downcase = create(:formula, ingredients: 'corn starch')
+    milk_upcase = create(:formula, ingredients: 'MILK')
+    milk_downcase = create(:formula, ingredients: 'milk')
+    water = create(:formula, ingredients: 'WATER')
+
+    get "/api/v1/formulas?allergens=corn,milk"
+
+    formula = JSON.parse(response.body)
+
+    expect(response).to be_successful
+    # binding.pry
+    expect(formula.count).to eq(1)
+    expect(formula.first["ingredients"]).to_not eq(corn_starch_upcase)
+    expect(formula.first["ingredients"]).to_not eq(corn_starch_downcase)
+    expect(formula.first["ingredients"]).to_not eq(milk_downcase)
+    expect(formula.first["ingredients"]).to_not eq(milk_upcase)
+    expect(formula.first.to_json).to eq(water.to_json)
+  end
 end

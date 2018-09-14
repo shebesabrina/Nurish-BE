@@ -7,4 +7,12 @@ class Formula < ApplicationRecord
 
   has_one :formula_overview
   has_one :nutritional_content
+
+  def self.allergen_search(allergen, formula = nil)
+    if formula
+      formula + ".where('ingredients NOT ILIKE ?', '%#{allergen}%')"
+    else
+      "Formula.where('ingredients NOT ILIKE ?', '%#{allergen}%')"
+    end
+  end
 end
