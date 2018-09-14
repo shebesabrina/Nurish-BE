@@ -15,4 +15,10 @@ class Formula < ApplicationRecord
       "Formula.where('ingredients NOT ILIKE ?', '%#{allergen}%')"
     end
   end
+
+  def self.accumulator(allergens)
+    allergens.reduce(nil) do |accum, allergen|
+      Formula.allergen_search(allergen, accum)
+    end
+  end
 end
