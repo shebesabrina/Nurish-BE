@@ -1,12 +1,12 @@
 class Api::V1::FormulasController < ApplicationController
 
   def index
-    render json: Formula.all
-  end
-
-  def index_without_allergens
-    binding.pry
-    render json: Formula.nutritional_contents.find(params[:allergens])
+    if params["allergens"]
+      allergen = Formula.where('ingredients NOT ILIKE ?', "%#{params["allergens"]}%")
+      render json: allergen
+    else
+      render json: Formula.all
+    end
   end
 
   def show
@@ -14,3 +14,4 @@ class Api::V1::FormulasController < ApplicationController
   end
 
 end
+# pp
