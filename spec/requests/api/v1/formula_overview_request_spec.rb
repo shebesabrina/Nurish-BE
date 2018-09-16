@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'formula_overview dietary needs' do
-  it 'should display all formulas that are gluten free' do
+  xit 'should display all formulas that are gluten free' do
     contains_gluten_uppercase = create(:formula_overview, gluten_free: 'N')
     contains_gluten_downcase= create(:formula_overview, gluten_free: 'N')
     gluten_free_uppercase = create(:formula_overview, gluten_free: 'Y')

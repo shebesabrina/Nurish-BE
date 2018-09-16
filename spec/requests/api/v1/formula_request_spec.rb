@@ -37,7 +37,6 @@ describe 'Formula API' do
     formula = JSON.parse(response.body)
 
     expect(response).to be_successful
-    # binding.pry
     expect(formula.count).to eq(1)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_upcase)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_downcase)
@@ -56,12 +55,31 @@ describe 'Formula API' do
     formula = JSON.parse(response.body)
 
     expect(response).to be_successful
-    # binding.pry
     expect(formula.count).to eq(1)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_upcase)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_downcase)
     expect(formula.first["ingredients"]).to_not eq(milk_downcase)
     expect(formula.first["ingredients"]).to_not eq(milk_upcase)
     expect(formula.first.to_json).to eq(water.to_json)
+  end
+
+  it 'can get formulas that have a standard hcpc code of B4150' do
+    standard_formula_upcase = create(:formula, hcpc: 'B4150')
+    standard_formula_downcase = create(:formula, hcpc: 'b4150')
+    specialty_formula_upcase = create(:formula, hcpc: 'B4155')
+    specialty_formula_downcase = create(:formula, hcpc: 'b4155')
+    # invalid = create(:formula, hcpc: 'B4150')
+
+    get "/api/v1/formulas?hcpc=B4150"
+
+    formula = JSON.parse(response.body)
+
+    expect(response).to be_successful
+    expect(formula.count).to eq(1)
+    expect(formula.first["hcpc"]).to_not eq(specialty_formula_upcase)
+    expect(formula.first["hcpc"]).to_not eq(specialty_formula_downcase)
+
+    expect(formula.first.to_json).to eq(standard_formula_upcase.to_json)
+    expect(formula.first.to_json).to eq(standard_formula_downcase.to_json)
   end
 end
