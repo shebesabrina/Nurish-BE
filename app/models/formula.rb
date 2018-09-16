@@ -21,4 +21,9 @@ class Formula < ApplicationRecord
       Formula.allergen_search(allergen, accum)
     end
   end
+
+  # def self.hcpc_code(hcpc)
+  #   binding.pry
+  #   "where('hcpc NOT ILIKE ?', '#{hcpc}')"
+  # end
 end

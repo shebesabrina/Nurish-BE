@@ -5,6 +5,9 @@ class Api::V1::FormulasController < ApplicationController
       allergens = params["allergens"].split(",")
       formula  = eval Formula.accumulator(allergens)
       render json: formula
+    elsif params["hcpc"]
+      hcpc = Formula.find_by(params["hcpc"])
+      render json: hcpc
     else
       render json: Formula.all
     end
