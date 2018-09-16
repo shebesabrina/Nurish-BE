@@ -24,15 +24,13 @@ describe 'Formula API' do
     expect(formula["id"]).to eq(id)
   end
 
-  xit 'can get formulas that do not contain specific ingredients' do
+  it 'can get formulas that do not contain specific ingredients' do
     corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     water = create(:formula, ingredients: 'WATER')
 
-    # get "/api/v1/formulas?allergens=#{corn_starch_upcase}"
-    # binding.pry
     get "/api/v1/formulas?allergens=corn"
-    # get "/api/v1/formulas_allergens/#{corn_starch_upcase}"
+
 
     formula = JSON.parse(response.body)
 
@@ -43,7 +41,7 @@ describe 'Formula API' do
     expect(formula.first.to_json).to eq(water.to_json)
   end
 
-  xit 'can get formulas that do not contain multiple ingredient allergens' do
+  it 'can get formulas that do not contain multiple ingredient allergens' do
     corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     milk_upcase = create(:formula, ingredients: 'MILK')
@@ -64,10 +62,12 @@ describe 'Formula API' do
   end
 
   it 'can get formulas that have a standard hcpc code of B4150' do
-    standard_formula_upcase = create(:formula, hcpc: 'B4150')
+    standard_formula_upcase_1 = create(:formula, hcpc: 'B4150')
+    standard_formula_upcase_2 = create(:formula, hcpc: 'B4150')
+    standard_formula_upcase_3 = create(:formula, hcpc: 'B4150')
     # standard_formula_downcase = create(:formula, hcpc: 'b4150')
     specialty_formula_upcase = create(:formula, hcpc: 'B4155')
-    # specialty_formula_downcase = create(:formula, hcpc: 'b4155')
+    specialty_formula_downcase = create(:formula, hcpc: 'b4155')
     # invalid = create(:formula, hcpc: 'B4150')
 
     get "/api/v1/formulas?hcpc=B4150"
@@ -75,11 +75,13 @@ describe 'Formula API' do
     formula = JSON.parse(response.body)
 
     expect(response).to be_successful
-    expect(formula.count).to eq(1)
+    expect(formula.count).to eq(3)
     expect(formula.first["hcpc"]).to_not eq(specialty_formula_upcase)
-    # expect(formula.first["hcpc"]).to_not eq(specialty_formula_downcase)
+    expect(formula.first["hcpc"]).to_not eq(specialty_formula_downcase)
 
-    expect(formula.first.to_json).to eq(standard_formula_upcase.to_json)
+    expect(formula.first.to_json).to eq(standard_formula_upcase_1.to_json)
+    expect(formula.second.to_json).to eq(standard_formula_upcase_2.to_json)
+    expect(formula.third.to_json).to eq(standard_formula_upcase_3.to_json)
     # expect(formula.first.to_json).to eq(standard_formula_downcase.to_json)
   end
 end
