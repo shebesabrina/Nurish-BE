@@ -24,7 +24,7 @@ describe 'Formula API' do
     expect(formula["id"]).to eq(id)
   end
 
-  it 'can get formulas that do not contain specific ingredients' do
+  xit 'can get formulas that do not contain specific ingredients' do
     corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     water = create(:formula, ingredients: 'WATER')
@@ -41,7 +41,7 @@ describe 'Formula API' do
     expect(formula.first.to_json).to eq(water.to_json)
   end
 
-  it 'can get formulas that do not contain multiple ingredient allergens' do
+  xit 'can get formulas that do not contain multiple ingredient allergens' do
     corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     milk_upcase = create(:formula, ingredients: 'MILK')
@@ -61,7 +61,7 @@ describe 'Formula API' do
     expect(formula.first.to_json).to eq(water.to_json)
   end
 
-  it 'can get formulas that have a standard hcpc code of B4150' do
+  xit 'can get formulas that have a standard hcpc code of B4150' do
     standard_formula_upcase_1 = create(:formula, hcpc: 'B4150')
     standard_formula_upcase_2 = create(:formula, hcpc: 'B4150')
     standard_formula_upcase_3 = create(:formula, hcpc: 'B4150')
@@ -95,6 +95,7 @@ describe 'Formula API' do
       formula_4 = create(:formula)
 
       contains_gluten_uppercase = create(:formula_overview, gluten_free: 'N', formula: formula_1)
+      binding.pry
       contains_gluten_downcase = create(:formula_overview, gluten_free: 'n', formula: formula_2)
       gluten_free_uppercase = create(:formula_overview, gluten_free: 'Y', formula: formula_3)
       gluten_free_downcase = create(:formula_overview, gluten_free: 'y', formula: formula_4)
