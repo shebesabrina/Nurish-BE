@@ -1,12 +1,13 @@
 FactoryBot.define do
   factory :nutritional_content do
+    formula
     calories { "MyString" }
     protein { "MyString" }
-    carbohydrates { "MyString" }
+    carbohydrate { "MyString" }
     fiber { "MyString" }
     fat { "MyString" }
     sodium { "MyString" }
     potassium { "MyString" }
-    service_size { "MyString" }
+    serving_size { "MyString" }
   end
 end

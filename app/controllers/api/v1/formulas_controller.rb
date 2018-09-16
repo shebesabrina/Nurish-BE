@@ -15,7 +15,7 @@ class Api::V1::FormulasController < ApplicationController
   end
 
   def show
-    render json: Formula.find(params[:id])
+    render json: Formula.find(params[:id]), :include => [ :formula_overview, :nutritional_content ]
     # Formula.includes(:nutritional_content && :formula_overview).first
   end
 

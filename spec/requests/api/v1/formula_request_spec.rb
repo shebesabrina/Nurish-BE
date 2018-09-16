@@ -24,7 +24,7 @@ describe 'Formula API' do
     expect(formula["id"]).to eq(id)
   end
 
-  xit 'can get formulas that do not contain specific ingredients' do
+  it 'can get formulas that do not contain specific ingredients' do
     corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     water = create(:formula, ingredients: 'WATER')
@@ -41,7 +41,7 @@ describe 'Formula API' do
     expect(formula.first.to_json).to eq(water.to_json)
   end
 
-  xit 'can get formulas that do not contain multiple ingredient allergens' do
+  it 'can get formulas that do not contain multiple ingredient allergens' do
     corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     milk_upcase = create(:formula, ingredients: 'MILK')
@@ -83,5 +83,34 @@ describe 'Formula API' do
     expect(formula.second.to_json).to eq(standard_formula_upcase_2.to_json)
     expect(formula.third.to_json).to eq(standard_formula_upcase_3.to_json)
     # expect(formula.first.to_json).to eq(standard_formula_downcase.to_json)
+  end
+
+  require 'rails_helper'
+
+  describe 'formula_overview dietary needs' do
+    it 'should display all formulas that are gluten free' do
+      formula_1 = create(:formula)
+      formula_2 = create(:formula)
+      formula_3 = create(:formula)
+      formula_4 = create(:formula)
+
+      contains_gluten_uppercase = create(:formula_overview, gluten_free: 'N', formula: formula_1)
+      contains_gluten_downcase = create(:formula_overview, gluten_free: 'n', formula: formula_2)
+      gluten_free_uppercase = create(:formula_overview, gluten_free: 'Y', formula: formula_3)
+      gluten_free_downcase = create(:formula_overview, gluten_free: 'y', formula: formula_4)
+
+      get "/api/v1/formulas?gluten_free"
+
+      formula_overview = JSON.parse(response.body)
+
+      expect(response).to be_successful
+
+      expect(formula_overview.count).to eq(1)
+      expect(formula_overview.first["gluten_free"]).to_not eq(contains_gluten_downcase)
+      expect(formula_overview.first["gluten_free"]).to_not eq(contains_gluten_uppercase)
+
+      expect(formula_overview.first.to_json).to eq(gluten_free_uppercase.to_json)
+      expect(formula_overview.first.to_json).to eq(gluten_free_downcase.to_json)
+    end
   end
 end
