@@ -6,7 +6,6 @@ class Api::V1::FormulasController < ApplicationController
       formula  = eval Formula.accumulator(allergens)
       render json: formula
     elsif params["hcpc"]
-      # binding.pry
       # hcpc = Formula.where(hcpc: params["hcpc"])
       hcpc = Formula.where('hcpc LIKE ?', "%#{params["hcpc"]}")
       render json: hcpc
@@ -17,6 +16,10 @@ class Api::V1::FormulasController < ApplicationController
 
   def show
     render json: Formula.find(params[:id])
+    # Formula.includes(:nutritional_content && :formula_overview).first
   end
 
 end
+
+# Formula.includes(:nutritional_content)
+# Formula.includes(:formula_overview)
