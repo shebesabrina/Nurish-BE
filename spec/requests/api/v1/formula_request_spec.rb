@@ -65,7 +65,7 @@ describe 'Formula API' do
     standard_formula_upcase_1 = create(:formula, hcpc: 'B4150')
     standard_formula_upcase_2 = create(:formula, hcpc: 'B4150')
     standard_formula_upcase_3 = create(:formula, hcpc: 'B4150')
-    # standard_formula_downcase = create(:formula, hcpc: 'b4150')
+    standard_formula_downcase = create(:formula, hcpc: 'b4150')
     specialty_formula_upcase = create(:formula, hcpc: 'B4155')
     specialty_formula_downcase = create(:formula, hcpc: 'b4155')
     # invalid = create(:formula, hcpc: 'B4150')
@@ -82,6 +82,7 @@ describe 'Formula API' do
     expect(formula.first.to_json).to eq(standard_formula_upcase_1.to_json)
     expect(formula.second.to_json).to eq(standard_formula_upcase_2.to_json)
     expect(formula.third.to_json).to eq(standard_formula_upcase_3.to_json)
-    # expect(formula.first.to_json).to eq(standard_formula_downcase.to_json)
+    binding.pry
+    expect(formula.first.to_json).to eq(standard_formula_downcase.to_json)
   end
 end

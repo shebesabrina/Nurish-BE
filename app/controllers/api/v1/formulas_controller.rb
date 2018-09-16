@@ -7,7 +7,8 @@ class Api::V1::FormulasController < ApplicationController
       render json: formula
     elsif params["hcpc"]
       # binding.pry
-      hcpc = Formula.where(hcpc: params["hcpc"])
+      # hcpc = Formula.where(hcpc: params["hcpc"])
+      hcpc = Formula.where('hcpc LIKE ?', "%#{params["hcpc"]}")
       render json: hcpc
     else
       render json: Formula.all
