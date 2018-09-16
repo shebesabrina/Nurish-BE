@@ -6,7 +6,8 @@ class Api::V1::FormulasController < ApplicationController
       formula  = eval Formula.accumulator(allergens)
       render json: formula
     elsif params["hcpc"]
-      hcpc = Formula.find_by(params["hcpc"])
+      # binding.pry
+      hcpc = Formula.where(hcpc: params["hcpc"])
       render json: hcpc
     else
       render json: Formula.all
@@ -18,4 +19,3 @@ class Api::V1::FormulasController < ApplicationController
   end
 
 end
-# pp
