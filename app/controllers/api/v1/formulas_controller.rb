@@ -4,6 +4,7 @@ class Api::V1::FormulasController < ApplicationController
     if params["allergens"]
       allergens = params["allergens"].split(",")
       formula  = eval Formula.accumulator(allergens)
+      # binding.pry
       render json: formula
     elsif params["hcpc"]
       # hcpc = Formula.where(hcpc: params["hcpc"])
@@ -19,21 +20,21 @@ class Api::V1::FormulasController < ApplicationController
       # .where('formula_overviews.mct_lct LIKE ?', "20%")
       # .pluck(:title, :mct_lct)
       #LOW
-      low = Formula.find_by_sql("SELECT formulas.title, formulas.id FROM formulas
+      low = Formula.find_by_sql("SELECT formulas.title, formulas.id, formula_overviews.mct_lct FROM formulas
                   INNER JOIN formula_overviews ON formula_overviews.formula_id = formulas.id
-                  WHERE (formula_overviews.mct_lct <= '25')")
+                  WHERE (formula_overviews.mct_lct < '25')")
       render json: low
       elsif params["mct_lct"] == "medium"
-
+        # binding.pry
       #MEDIUM
-      medium = Formula.find_by_sql("SELECT formulas.title, formulas.id FROM formulas
+      medium = Formula.find_by_sql("SELECT formulas.title, formulas.id, formula_overviews.mct_lct FROM formulas
                   INNER JOIN formula_overviews ON formula_overviews.formula_id = formulas.id
-                  WHERE (formula_overviews.mct_lct <= '25' AND mct_lct >= '50')")
+                  WHERE (formula_overviews.mct_lct >= '25' AND formula_overviews.mct_lct < '50')")
       render json: medium
       elsif params["mct_lct"] == "high"
 
       #HIGH
-      high = Formula.find_by_sql("SELECT formulas.title, formulas.id FROM formulas
+      high = Formula.find_by_sql("SELECT formulas.title, formulas.id, formula_overviews.mct_lct FROM formulas
                   INNER JOIN formula_overviews ON formula_overviews.formula_id = formulas.id
                   WHERE (formula_overviews.mct_lct >= '50')")
       render json: high
@@ -41,8 +42,11 @@ class Api::V1::FormulasController < ApplicationController
         render json: Formula.all
       # binding.pry
       end
-    # elsif params["type"]
-
+    elsif params["type"]
+      type = params["type"]
+      formula  = Formula.where('usage ILIKE ?', "%#{type}%")
+      # binding.pry
+      render json: formula
     else
       render json: Formula.all
     end

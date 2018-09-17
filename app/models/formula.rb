@@ -11,8 +11,9 @@ class Formula < ApplicationRecord
   def self.allergen_search(allergen, formula = nil)
     if formula
       formula + ".where('ingredients NOT ILIKE ?', '%#{allergen}%')"
+      formula + ".where('restrictions NOT ILIKE ?', '%#{allergen}%')"
     else
-      "Formula.where('ingredients NOT ILIKE ?', '%#{allergen}%')"
+      "Formula.where('ingredients NOT ILIKE ?', '%#{allergen}%').where('restrictions NOT ILIKE ?', '%#{allergen}%')"
     end
   end
 
@@ -22,8 +23,8 @@ class Formula < ApplicationRecord
     end
   end
 
-  # def self.hcpc_code(hcpc)
-  #   binding.pry
-  #   "where('hcpc NOT ILIKE ?', '#{hcpc}')"
+  # def self.type_search(type)
+  #   "Formula.where('usage ILIKE ?', '%#{type}%')"
   # end
+
 end

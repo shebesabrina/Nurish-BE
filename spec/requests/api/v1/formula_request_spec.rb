@@ -46,13 +46,14 @@ describe 'Formula API' do
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     milk_upcase = create(:formula, ingredients: 'MILK')
     milk_downcase = create(:formula, ingredients: 'milk')
-    water = create(:formula, ingredients: 'WATER')
+    water = create(:formula, ingredients: 'WATER', restrictions: '')
 
     get "/api/v1/formulas?allergens=corn,milk"
 
     formula = JSON.parse(response.body)
 
     expect(response).to be_successful
+    
     expect(formula.count).to eq(1)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_upcase)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_downcase)
@@ -146,9 +147,9 @@ describe 'Formula API' do
 
   describe 'Specialty formula' do
     it 'should display all diabetic formulas' do
-      formula_1 = create(:formula, description: 'Renal')
-      formula_2 = create(:formula, description: 'Diabetes')
-      formula_3 = create(:formula, description: 'Elevated calorie needs')
+      formula_1 = create(:formula, usage: 'Poor appetite, Involuntary weight loss, malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery')
+      formula_2 = create(:formula, usage: 'Diabetes, Impaired glucose tolerance, Stress-induced hyperglycemia, Modified carbohydrate requirements, Increased protein requirements')
+      formula_3 = create(:formula, usage: 'Standard, whole-protein tube feeding needs, Elevated calorie needs, Fibre restriction/contraindication')
 
       get "/api/v1/formulas?type=diabetes"
 
@@ -157,9 +158,9 @@ describe 'Formula API' do
       expect(response).to be_successful
 
       expect(formula.count).to eq(1)
-      expect(formula.first["description"]).to_not eq(formula_1)
-      expect(formula.first["description"]).to eq(formula_2)
-      expect(formula.first["description"]).to_not eq(formula_3)
+      expect(formula.first.to_json).to_not eq(formula_1.to_json)
+      expect(formula.first.to_json).to eq(formula_2.to_json)
+      expect(formula.first.to_json).to_not eq(formula_3.to_json)
       # expect(formula.first.to_json).to eq(water.to_json)
     end
   end
