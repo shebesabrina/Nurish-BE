@@ -53,7 +53,7 @@ describe 'Formula API' do
     formula = JSON.parse(response.body)
 
     expect(response).to be_successful
-    
+
     expect(formula.count).to eq(1)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_upcase)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_downcase)
@@ -66,7 +66,7 @@ describe 'Formula API' do
     standard_formula_upcase_1 = create(:formula, hcpc: 'B4150')
     standard_formula_upcase_2 = create(:formula, hcpc: 'B4150')
     standard_formula_upcase_3 = create(:formula, hcpc: 'B4150')
-    # standard_formula_downcase = create(:formula, hcpc: 'b4150')
+    standard_formula_downcase = create(:formula, hcpc: 'b4150')
     specialty_formula_upcase = create(:formula, hcpc: 'B4155')
     specialty_formula_downcase = create(:formula, hcpc: 'b4155')
     # invalid = create(:formula, hcpc: 'B4150')
@@ -76,14 +76,14 @@ describe 'Formula API' do
     formula = JSON.parse(response.body)
 
     expect(response).to be_successful
-    expect(formula.count).to eq(3)
+    expect(formula.count).to eq(4)
     expect(formula.first["hcpc"]).to_not eq(specialty_formula_upcase)
     expect(formula.first["hcpc"]).to_not eq(specialty_formula_downcase)
 
     expect(formula.first.to_json).to eq(standard_formula_upcase_1.to_json)
     expect(formula.second.to_json).to eq(standard_formula_upcase_2.to_json)
     expect(formula.third.to_json).to eq(standard_formula_upcase_3.to_json)
-    # expect(formula.first.to_json).to eq(standard_formula_downcase.to_json)
+    expect(formula.fourth.to_json).to eq(standard_formula_downcase.to_json)
   end
 
   require 'rails_helper'
