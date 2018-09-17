@@ -143,4 +143,24 @@ describe 'Formula API' do
       # expect(formula.first.formula_overview.to_json).to eq(formula_4.to_json)
     end
   end
+
+  describe 'Specialty formula' do
+    it 'should display all diabetic formulas' do
+      formula_1 = create(:formula, description: 'Renal')
+      formula_2 = create(:formula, description: 'Diabetes')
+      formula_3 = create(:formula, description: 'Elevated calorie needs')
+
+      get "/api/v1/formulas?type=diabetes"
+
+      formula = JSON.parse(response.body)
+
+      expect(response).to be_successful
+
+      expect(formula.count).to eq(1)
+      expect(formula.first["description"]).to_not eq(formula_1)
+      expect(formula.first["description"]).to eq(formula_2)
+      expect(formula.first["description"]).to_not eq(formula_3)
+      # expect(formula.first.to_json).to eq(water.to_json)
+    end
+  end
 end
