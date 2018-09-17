@@ -12,7 +12,7 @@ FactoryBot.define do
     dietary_fibre "2"
     fibre_source ""
     n6n3_ratio ""
-    # MCT_LCT
+    mct_lct "25"
     omega_3_fatty_acids ""
     water_content ""
     osmolality ""

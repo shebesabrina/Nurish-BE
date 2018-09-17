@@ -24,7 +24,7 @@ describe 'Formula API' do
     expect(formula["id"]).to eq(id)
   end
 
-  xit 'can get formulas that do not contain specific ingredients' do
+  it 'can get formulas that do not contain specific ingredients' do
     corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     water = create(:formula, ingredients: 'WATER')
@@ -41,7 +41,7 @@ describe 'Formula API' do
     expect(formula.first.to_json).to eq(water.to_json)
   end
 
-  xit 'can get formulas that do not contain multiple ingredient allergens' do
+  it 'can get formulas that do not contain multiple ingredient allergens' do
     corn_starch_upcase = create(:formula, ingredients: 'CORN STARCH')
     corn_starch_downcase = create(:formula, ingredients: 'corn starch')
     milk_upcase = create(:formula, ingredients: 'MILK')
@@ -61,7 +61,7 @@ describe 'Formula API' do
     expect(formula.first.to_json).to eq(water.to_json)
   end
 
-  xit 'can get formulas that have a standard hcpc code of B4150' do
+  it 'can get formulas that have a standard hcpc code of B4150' do
     standard_formula_upcase_1 = create(:formula, hcpc: 'B4150')
     standard_formula_upcase_2 = create(:formula, hcpc: 'B4150')
     standard_formula_upcase_3 = create(:formula, hcpc: 'B4150')
@@ -112,6 +112,33 @@ describe 'Formula API' do
       expect(formula.first).to_not eq(formula_2)
 
       expect(formula.first.to_json).to eq(formula_3.to_json)
+      # expect(formula.first.formula_overview.to_json).to eq(formula_4.to_json)
+    end
+  end
+
+  describe 'MCT oil percentage range' do
+    it 'should display all formulas with less than 25% MCT oil' do
+      formula_1 = create(:formula)
+      formula_2 = create(:formula)
+      formula_3 = create(:formula)
+      # formula_4 = create(:formula)
+
+      low = create(:formula_overview, mct_lct: '20:80', formula: formula_1)
+      mid = create(:formula_overview, mct_lct: '50:80', formula: formula_2)
+      high = create(:formula_overview, mct_lct: '75:80', formula: formula_3)
+      # mct_lct_downcase = create(:formula_overview, mct_lct: 'y', formula: formula_4)
+
+      get "/api/v1/formulas?mct_lct=low"
+
+      formula = JSON.parse(response.body)
+
+      expect(response).to be_successful
+
+      expect(formula.count).to eq(1)
+      expect(formula.first[0]).to eq(formula_1.title)
+      expect(formula.first).to_not eq(formula_2)
+
+      expect(formula.first.to_json).to_not eq(formula_3.to_json)
       # expect(formula.first.formula_overview.to_json).to eq(formula_4.to_json)
     end
   end

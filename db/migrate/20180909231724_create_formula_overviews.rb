@@ -12,7 +12,7 @@ class CreateFormulaOverviews < ActiveRecord::Migration[5.2]
       t.string :dietary_fibre
       t.string :fibre_source
       t.string :n6n3_ratio
-      t.string :MCT_LCT
+      t.string :mct_lct
       t.string :omega_3_fatty_acids
       t.string :water_content
       t.string :osmolality
