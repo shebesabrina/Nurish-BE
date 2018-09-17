@@ -95,23 +95,24 @@ describe 'Formula API' do
       formula_4 = create(:formula)
 
       contains_gluten_uppercase = create(:formula_overview, gluten_free: 'N', formula: formula_1)
-      binding.pry
+      # binding.pry
       contains_gluten_downcase = create(:formula_overview, gluten_free: 'n', formula: formula_2)
       gluten_free_uppercase = create(:formula_overview, gluten_free: 'Y', formula: formula_3)
-      gluten_free_downcase = create(:formula_overview, gluten_free: 'y', formula: formula_4)
+      # gluten_free_downcase = create(:formula_overview, gluten_free: 'y', formula: formula_4)
 
-      get "/api/v1/formulas?gluten_free"
+      get "/api/v1/formulas?gluten_free=Y"
 
-      formula_overview = JSON.parse(response.body)
+      formula = JSON.parse(response.body)
 
       expect(response).to be_successful
 
-      expect(formula_overview.count).to eq(1)
-      expect(formula_overview.first["gluten_free"]).to_not eq(contains_gluten_downcase)
-      expect(formula_overview.first["gluten_free"]).to_not eq(contains_gluten_uppercase)
+      expect(formula.count).to eq(1)
+      # binding.pry
+      expect(formula.first).to_not eq(formula_1)
+      expect(formula.first).to_not eq(formula_2)
 
-      expect(formula_overview.first.to_json).to eq(gluten_free_uppercase.to_json)
-      expect(formula_overview.first.to_json).to eq(gluten_free_downcase.to_json)
+      expect(formula.first.to_json).to eq(formula_3.to_json)
+      # expect(formula.first.formula_overview.to_json).to eq(formula_4.to_json)
     end
   end
 end

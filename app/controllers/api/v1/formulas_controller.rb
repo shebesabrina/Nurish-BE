@@ -11,8 +11,10 @@ class Api::V1::FormulasController < ApplicationController
       hcpc = Formula.where('hcpc LIKE ?', "%#{params["hcpc"]}")
       render json: hcpc
     elsif params["gluten_free"]
-      Formula.includes(:nutritional_content).where(gluten_free = "Y")
-      # Formula.where(gluten_free = "Y", :include => [ :formula_overview ])
+      gluten = Formula
+      .joins(:formula_overview)
+      .where("formula_overviews.gluten_free = 'Y'")
+      render json: gluten
     else
       render json: Formula.all
     end
@@ -27,3 +29,4 @@ end
 
 # Formula.includes(:nutritional_content)
 # Formula.includes(:formula_overview)
+# Formula.select(:title).joins(:formula_overview).where("formula_overviews.gluten_free = 'Y'")
