@@ -135,7 +135,8 @@ describe 'Formula API' do
       expect(response).to be_successful
 
       expect(formula.count).to eq(1)
-      expect(formula.first[0]).to eq(formula_1.title)
+      # binding.pry
+      expect(formula.first["title"]).to eq(formula_1.title)
       expect(formula.first).to_not eq(formula_2)
 
       expect(formula.first.to_json).to_not eq(formula_3.to_json)
