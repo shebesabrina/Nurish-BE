@@ -8,7 +8,7 @@ class Api::V1::FormulasController < ApplicationController
       render json: formula
     elsif params["hcpc"]
       # hcpc = Formula.where(hcpc: params["hcpc"])
-      hcpc = Formula.where('hcpc LIKE ?', "%#{params["hcpc"]}")
+      hcpc = Formula.where('hcpc ILIKE ?', "%#{params["hcpc"]}")
       render json: hcpc
     elsif params["gluten_free"]
       gluten = Formula.joins(:formula_overview)
