@@ -1,4 +1,5 @@
 class NutritionalContent < ApplicationRecord
+  serialize :properties, JSON
   # validates_presence_of(:calories)
   # validates_presence_of(:protein)
   # validates_presence_of(:carbohydrate)
