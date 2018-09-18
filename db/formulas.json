@@ -1,7 +1,6 @@
 [
   {
     "title": "Beneprotein",
-    "image": "Beneprotein.png",
     "description": "Beneprotein instant protein powder is a modular whey protein source. Each 7 g serving provides 6 g of protein. It can be added to most foods, liquids and as a protein flush with tube feedings",
     "usage": "Increased protein requirements",
     "ingredients": "WHEY PROTEIN ISOLATE (MILK), SOY LECITHIN",
@@ -10,7 +9,6 @@
   },
   {
     "title": "BOOST Original",
-    "image": "Boost-Original.png",
     "description": "BOOST Original is a great tasting, nutritionally complete, meal replacement that can be used as a snack or as a meal. No artificial flavours or colours. Natural source sweetener. For oral use. ",
     "usage": "Poor appetite, Involuntary weight loss, malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery",
     "ingredients": "WATER, CORN SYRUP, MILK PROTEIN, SUGAR, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER AND CORN), SOY PROTEIN, SALT, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, CALCIUM CARBONATE, TRICALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, FLAVOUR, CARRAGEENAN, STEVIA EXTRACT, DIMETHYLPOLYSILOXANE.",
@@ -18,7 +16,6 @@
   },
   {
     "title": "BOOST Powder",
-    "image": "Boost-Powder.png",
     "description": "BOOST Powder is a great tasting option, when mixed with milk or in smoothies, that provides a source of protein and other vitamins and minerals. It can be used with snacks or meals. For oral use",
     "usage": "Skipped breakfast meal,  Inadequate oral intake",
     "ingredients": "SKIM MILK POWDER, SUGAR, CORN MALTODEXTRIN, OLIGOFRUCTOSE, INULIN, LACTOSE, ARTIFICIAL FLAVOUR, CELLULOSE GUM, VITAMINS (VITAMIN A PALMITATE, ASCORBIC ACID, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE), MINERAL (FERRIC ORTHOPHOSPHATE).",
@@ -27,7 +24,6 @@
   },
   {
     "title": "BOOST DIABETIC",
-    "image": "Boost-Diabetic.png",
     "description": "BOOST Diabetic is a great tasting, nutritionally complete formula designed to meet the needs of people with diabetes. A unique and calorically balanced blend of protein, fat and carbohydrates. Provides 17 g of carbohydrate per serving. For oral use.",
     "usage": "Diabetes, Hyperglycemia, Glucose intolerance",
     "ingredients": "WATER, MODIFIED MILK INGREDIENTS, TAPIOCA DEXTRIN, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), SOY PROTEIN ISOLATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, CALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, SUCRALOSE, ARTIFICIAL FLAVOUR, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
@@ -36,7 +32,6 @@
   },
   {
     "title": "BOOST HIGH PROTEIN",
-    "image": "Boost-HighProtein.png",
     "description": "BOOST® High Protein is a great tasting, nutritionally complete formula with 15 g of protein per 237 ml that can be used as a snack or as a meal. For oral use",
     "usage": "Chewing or swallowing difficulties, Fluid or volume restrictions, Poor appetite",
     "ingredients": "WATER, CORN SYRUP, MODIFIED MILK INGREDIENTS, SUGAR, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), SOY PROTEIN ISOLATE, SALT, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACIN, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, MAGNESIUM CHLORIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), ARTIFICIAL FLAVOUR, CELLULOSE GEL AND GUM, SOY LECITHIN, CARRAGEENAN, STEVIA EXTRACT, DIMETHYLPOLYSILOXANE. ",
@@ -45,16 +40,16 @@
   },
   {
     "title": "BOOST PROTEIN +",
-    "image": "Boost-Protein+.png",
     "description": "Boost Protein +™ shake is a great tasting, nutritionally complete formula with 27 g of protein per 325 ml that can be used as a meal. For oral use",
-    "usage": "Increased protein requirements when recovering from illness or surgery, Increased protein requirements during and after cancer treatment",
+    "usage": [
+      "Increased protein requirements when recovering from illness or surgery, Increased protein requirements during and after cancer treatment"
+      ],
     "ingredients": "WATER, MILK PROTEIN, SUGAR, CORN SYRUP, COCOA, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER AND CORN), SOY PROTEIN ISOLATE, SALT, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DLALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (POTASSIUM CITRATE, MAGNESIUM PHOSPHATE, FERRIC PHOSPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, CARRAGEENAN, SUCRALOSE, NATURAL AND ARTIFICIAL FLAVOUR, DIMETHYLPOLYSILOXANE.",
     "hcpc": "B4152",
     "restrictions": "CONTAINS MILK AND SOY."
   },
   {
     "title": "BOOST JUST PROTEIN",
-    "image": "Boost-JustProtein.png",
     "description": "BOOST Just Protein™ is an unflavoured instant protein powder that is a modular whey protein source. Each 21 g serving provides 18 g of protein. It can be added to most foods, liquids and as a protein flush with tube feedings.",
     "usage": "Increased protein requirements",
     "ingredients": "WHEY PROTEIN ISOLATE [99%], SOY LECITHIN [1%].",
@@ -63,7 +58,6 @@
   },
   {
     "title": "BOOST PLUS CALORIES",
-    "image": "Boost-PlusCalories.png",
     "description": "BOOST Plus Calories is a great tasting, nutritionally complete formula that can be used as a snack or as a meal. It provides a concentrated calorie source in a limited volume for patients with high energy needs. For oral use.",
     "usage": "Malnutrition, Involuntary weight loss, Poor appetite, Increased energy needs, Fluid restriction/volume sensitivity",
     "ingredients": "WATER, CORN SYRUP, SUGAR, MODIFIED MILK INGREDIENTS, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), SOY PROTEIN ISOLATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, SALT, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, ASCORBIC ACID, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE BITARTRATE), MINERALS (POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, DIMAGNESIUM PHOSPHATE TRIHYDRATE, MAGNESIUM CHLORIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, CARRAGEENAN, ARTIFICIAL FLAVOUR, DIMETHYLPOLYSILOXANE.",
@@ -72,7 +66,6 @@
   },
   {
     "title": "BOOST FRUIT FLAVORED BEVERAGE",
-    "image": "Boost-FruitBeverages.png",
     "description": "BOOST Fruit Flavoured Beverage is a great tasting, nutritionally complete clear liquid diet oral supplement; an alternative to milky formulas. For oral use.",
     "usage": "Clear liquid diet needs, Fat malabsorption, Involuntary weight loss, Malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery",
     "ingredients": "WATER, LIQUID SUGAR, WHEY PROTEIN ISOLATE (MILK), PHOSPHORIC ACID, MAGNESIUM GLUCONATE, CITRIC ACID, SOYBEAN OIL, CHOLINE BITARTRATE, NATURAL FLAVOUR, CALCIUM CHLORIDE, COLOUR, L-CYSTEINE, POLYGLYCEROL ESTERS OF FATTY ACIDS, MANGANESE SULPHATE, FERROUS SULPHATE (IRON), COPPER GLUCONATE, ZINC SULPHATE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA TOCOPHERYL ACETATE, VITAMIN K1, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NICOTINAMIDE, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), CYANOCOBALAMIN, BIOTIN.",
@@ -81,7 +74,6 @@
   },
   {
     "title": "BOOST PUDDING",
-    "image": "Boost-Pudding.png",
     "description": "BOOST Pudding is great tasting and nutritionally complete in a pudding format. It can be used as a snack or dessert. For oral use.",
     "usage": "Involuntary weight loss, Malnutrition, Fluid or volume restrictions, Poor appetite, Chewing or swallowing difficulties",
     "ingredients": "WATER, CORN MALTODEXTRIN, SUGAR, MODIFIED MILK INGREDIENTS, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), MODIFIED CORN STARCH, SALT, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERRIC PYROPHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM CHLORIDE), SODIUM STEAROYL-2-LACTYLATE, NATURAL AND ARTIFICIAL FLAVOUR, CARRAGEENAN, STEVIA EXTRACT.",
@@ -90,7 +82,6 @@
   },
   {
     "title": "BOOST 1.5",
-    "image": "Boost-1_5.png",
     "description": "BOOST 1.5 is a great tasting, nutritionally complete supplement that can be used as a snack or as a meal. It provides concentrated calories in a limited volume for patients with high energy needs. For oral use.",
     "usage": "Malnutrition, Involuntary weight loss, Poor appetite, Increased energy needs, Fluid restriction/volume sensitivity, Reduced intake when recovering from surgery or illness, Reduced intake during and after cancer treatment",
     "ingredients": "WATER, CORN SYRUP, SUGAR, SODIUM CASEINATE (FROM MILK), HIGH OLEIC SUNFLOWER OIL, SOY PROTEIN ISOLATE, CANOLA OIL, CALCIUM CASEINATE, POTASSIUM CITRATE, TRICALCIUM PHOSPHATE, NATURAL AND ARTIFICIAL FLAVOUR, SODIUM CITRATE, SOY LECITHIN, MAGNESIUM CHLORIDE, CELLULOSE GUM, MICROCRYSTALLINE CELLULOSE, CHOLINE CHLORIDE, ASCORBIC ACID, CARRAGEENAN, POTASSIUM HYDROXIDE, POTASSIUM CHLORIDE, ZINC SULPHATE, FERROUS SULPHATE (IRON), ALPHA-TOCOPHERYL ACETATE, NIACINAMIDE, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), COPPER GLUCONATE, MANGANESE SULPHATE, PYRIDOXINE HYDROCHLORIDE, THIAMINE MONONITRATE, VITAMIN A PALMITATE, RIBOFLAVIN, CHROMIUM CHLORIDE, FOLIC ACID, BIOTIN, POTASSIUM IODIDE (IODINE), SODIUM MOLYBDATE (MOLYBDENUM), SODIUM SELENITE (SELENIUM), VITAMIN K1, CYANOCOBALAMIN, VITAMIN D3, DIMETHYLPOLYSILOXANE.",
@@ -98,7 +89,6 @@
   },
   {
     "title": "CARNATION BREAKFAST ESSENTIALS POWDER",
-    "image": "CBE-Powder.png",
     "description": "Carnation Breakfast Essentials is a great tasting ready-to-mix beverage; when mixed with milk, provides a source of protein and an excellent source of calcium, vitamin D, iron and vitamin C per serving. It can also be used with snacks or meals. For oral use.",
     "usage": "Skipped breakfast meal, Inadequate oral intake",
     "ingredients": "SKIM MILK POWDER, SUGAR, CORN MALTODEXTRIN, OLIGOFRUCTOSE/INULIN (PREBIO1TM), LACTOSE, ARTIFICIAL FLAVOUR, CELLULOSE GUM, VITAMINS AND MINERALS (VITAMIN A PALMITATE, ASCORBIC ACID, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, FERRIC ORTHOPHOSPHATE).",
@@ -107,7 +97,6 @@
   },
   {
     "title": "CARNATION BREAKFAST ESSENTIALS READY-TO-DRINK",
-    "image": "CBE-RTD.png",
     "description": "Carnation Breakfast Essentials is a great tasting ready-to-drink beverage. It is an excellent source of calcium, iron and vitamin D and a source of protein. It can also be used with snacks or meals. For oral use.",
     "usage": "Skipped breakfast meal, Inadequate oral intake",
     "ingredients": "WATER, CORN SYRUP, SUGAR, MILK PROTEIN, VEGETABLE OILS (CANOLA, SUNFLOWER AND CORN), SOY PROTEIN ISOLATE, SALT, ARTIFICIAL FLAVOUR, STEVIA LEAF EXTRACT, MICROCRYSTALLINE CELLULOSE, SODIUM CARBOXYMETHYL CELLULOSE, SOY LECITHIN, CARRAGEENAN, DIMETHYLPOLYSILOXANE, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (CALCIUM CARBONATE, TRICALCIUM PHOSPHATE, DIMAGNESIUM PHOSPHATE TRIHYDRATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, POTASSIUM HYDROXIDE, SODIUM CITRATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE). ",
@@ -116,7 +105,6 @@
   },
   {
     "title": "CARNATION BREAKFAST ESSENTIALS LIGHT START",
-    "image": "CBE-LightStart.png",
     "description": "Carnation Breakfast Essentials Light Start™ is a delicious, ready-to-mix beverage which contains 150 calories when mixed with skim milk. Each product sachet contains only 7 g of sugar",
     "usage": "Inadequate oral intake, Skipped breakfast meal",
     "ingredients": "SKIM MILK POWDER, COCOA, INULIN, LACTOSE, CORN MALTODEXTRIN, VITAMINS AND MINERALS (VITAMIN A PALMITATE, SODIUM ASCORBATE, NIACINAMIDE, FERRIC PHOSPHATE), SOY LECITHIN, CARRAGEENAN, NATURAL AND ARTIFICIAL FLAVOUR, SUCRALOSE (10 mg/20 g sachet), ACESULFAME-POTASSIUM (10 mg/20 g sachet).",
@@ -125,7 +113,6 @@
   },
   {
     "title": "CARNATION INSTANT BREAKFAST MAX PROTEIN",
-    "image": "CBE-MaxProtein.png",
     "description": "Carnation Breakfast Essentials Max Protein is a great tasting, nutritionally complete formula with 27 g of protein and 26 Vitamins and Minerals per 325 ml that can be used as a meal. For oral use.",
     "usage": "Increased protein requirements, Inadequate oral intake, Skipped breakfast meal",
     "ingredients": "WATER, MILK PROTEIN, SUGAR, CORN SYRUP, COCOA, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER AND CORN), SOY PROTEIN ISOLATE, SALT, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (POTASSIUM CITRATE, MAGNESIUM PHOSPHATE, FERRIC PHOSPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, CARRAGEENAN, SUCRALOSE, NATURAL AND ARTIFICIAL FLAVOUR, DIMETHYLPOLYSILOXANE.",
@@ -134,7 +121,6 @@
   },
   {
     "title": "COMPLEAT",
-    "image": "compleat-product-adult.png",
     "description": "Compleat is the tube feeding formula with real food ingredients including chicken, carrots, peas, tomato, green beans, peaches and cranberry juice. This formula contains a blend of fibre and protein sources, and does not contain corn or soy. For tube feeding use.",
     "usage": "Short or long term whole-protein tube feeding needs, Convenient alternative to homemade tube feeding, Nutrient-rich base for home blenderized tube feeding, Bowel function",
     "ingredients": "WATER, BROWN RICE SYRUP, MILK PROTEIN, CANOLA OIL, DRIED CHICKEN MEAT, TOMATO PASTE, PEACH PURÉE CONCENTRATE, PEA PROTEIN ISOLATE, DRIED GREEN BEANS, PEA FIBRE, DRIED GREEN PEAS, DRIED CARROTS, ACACIA GUM, CRANBERRY JUICE CONCENTRATE, OLIGOFRUCTOSE, SALT, INULIN, ROSEMARY EXTRACT, L-CARNITINE, TAURINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, POTASSIUM HYDRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SILICON DIOXIDE, CITRIC ACID, DIMETHYLPOLYSILOXANE.",
@@ -143,7 +129,6 @@
   },
   {
     "title": "COMPLEAT ORGANIC BLENDS",
-    "image": "Compleat-OrganicBlends-adult.png",
     "description": "Compleat Organic Blends is a 1.25 Cal/ml plant-based, real food ingredients formula. It contains a blend of organic whole foods, with plant-based protein sources and fibre from vegetables and fruit. This formula does not contain dairy, soy, or corn. For oral and tube feeding use.",
     "usage": "Short or long term wholeprotein tube feeding needs, Convenient alternative to homemade blenderized tube feeding",
     "ingredients": "SWEET POTATO PURÉE*, WATER, PEAR PURÉE*, HYDROLYZED PEA PROTEIN*, BROWN RICE FLOUR*, EXTRA VIRGIN OLIVE OIL*, RICE PROTEIN CONCENTRATE*, CANOLA OIL*, BLUEBERRY PURÉE*, KALE PURÉE*, CINNAMON*, SALT, GINGER*, L-CARNITINE,TAURINE, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE BITARTRATE), MINERALS (SODIUM CITRATE, TRICALCIUM PHOSPHATE, MAGNESIUM CHLORIDE, FERROUS SULPHATE, ZINC SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, CHROMIUM TRICHLORIDE), ASCORBIC ACID.",
@@ -151,7 +136,6 @@
   },
   {
     "title": "ISOSOURCE 1.0 HP",
-    "image": "isosource1-0HP.png",
     "description": "Isosource® 1.0 HP is a 1.0 Cal/ml, high protein formula with 25% of calories from protein. This formula does not contain fibre or soy ingredients. For oral and tube feeding use.",
     "usage": "Standard, whole-protein tube feeding needs, Increased protein requirements, Recovery from illness, surgery, and burns, Pressure ulcers, Fibre restriction/contraindication",
     "ingredients": "WATER, CORN SYRUP, MODIFIED MILK INGREDIENTS, CORN MALTODEXTRIN, CANOLA OIL, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), SALT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM CITRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
@@ -160,7 +144,6 @@
   },
   {
     "title": "ISOSOURCE FIBRE 1.0 HP",
-    "image": "IsosourceFibre-1-0-HP.png",
     "description": "Isosource Fibre 1.0 HP is a 1.0 Cal/ml, high protein formula with 25% of calories from protein. This formula also contains IS50, a unique blend of soluble and insoluble fibres. For oral and tube feeding use",
     "usage": "Standard, whole-protein tube feeding needs, Increased protein requirements, Recovery from illness, surgery, and burns, Pressure ulcers, Bowel function",
     "ingredients": "WATER, CORN SYRUP, SOY PROTEIN ISOLATE, CORN MALTODEXTRIN, CANOLA OIL, MODIFIED MILK INGREDIENTS, PEA FIBRE, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), ACACIA GUM, OLIGOFRUCTOSE, INULIN, SALT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM CITRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
@@ -169,7 +152,6 @@
   },
   {
     "title": "ISOSOURCE 1.2",
-    "image": "isosource1-2.png",
     "description": "Isosource 1.2 is a 1.2 Cal/ml, whole-protein formula with 18% of calories from protein. This formula does not contain fibre. For oral and tube feeding use",
     "usage": "Standard, whole-protein tube feeding needs, Elevated calorie needs, Fibre restriction/contraindication",
     "ingredients": "WATER, CORN SYRUP, SOY PROTEIN ISOLATE, CANOLA OIL, MODIFIED MILK INGREDIENTS, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), CORN MALTODEXTRIN, SALT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
@@ -178,7 +160,6 @@
   },
   {
     "title": "ISOSOURCE FIBRE 1.2",
-    "image": "IsosourceFibre-1-2.png",
     "description": "Isosource® Fibre 1.2 is a 1.2 Cal/ml, whole-protein formula with 18% of calories from protein. This formula also contains IS50™, a unique blend of soluble and insoluble fibres. For oral and tube feeding use.",
     "usage": " Standard, whole-protein tube feeding needs, Elevated calorie needs, Bowel function",
     "ingredients": "WATER, CORN SYRUP, SOY PROTEIN ISOLATE, CANOLA OIL, MODIFIED MILK INGREDIENTS, PEA FIBRE, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), ACACIA GUM, OLIGOFRUCTOSE, CORN MALTODEXTRIN, INULIN, SALT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
@@ -187,7 +168,6 @@
   },
   {
     "title": "ISOSOURCE 1.5",
-    "image": "isosource1-5.png",
     "description": "Isosource 1.5 is a 1.5 Cal/ml, whole-protein formula with 18% of calories from protein. This formula does not contain fibre. For oral and tube feeding use.",
     "usage": "Standard, whole-protein tube feeding needs, Volume intolerance, Fluid restriction, Elevated calorie needs, Shortened feeding schedule, Fibre restriction/contraindication",
     "ingredients": "WATER, CORN SYRUP, CORN MALTODEXTRIN, CANOLA OIL, SOY PROTEIN ISOLATE, MODIFIED MILK INGREDIENTS, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), SALT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
@@ -196,7 +176,6 @@
   },
   {
     "title": "ISOSOURCE FIBRE 1.5",
-    "image": "IsosourceFibre-1-5.png",
     "description": "Isosource® Fibre 1.5 is a 1.5 Cal/ml, whole-protein formula with 18% of calories from protein. This formula also contains IS50™, a unique blend of soluble and insoluble fibres. For oral and tube feeding use.",
     "usage": " Standard, whole-protein tube feeding needs, Volume intolerance, Fluid restriction, Elevated calorie needs, Shortened feeding schedules, Bowel function",
     "ingredients": "WATER, CORN SYRUP, CANOLA OIL, MODIFIED MILK INGREDIENTS, SOY PROTEIN ISOLATE, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), PEA FIBRE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, SALT, CORN MALTODEXTRIN, TAURINE, L-CARNITINE, VITAMINS (BETACAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
@@ -205,7 +184,6 @@
   },
   {
     "title": "ISOSOURCE 2.0",
-    "image": "isosource2-0.png",
     "description": "Isosource® 2.0 is a 2.0 Cal/ml, whole-protein formula with 16% of calories from protein. This formula does not contain fibre. For oral and tube feeding use.",
     "usage": "Standard, whole-protein tube feeding needs, Fluid restriction, Elevated calorie needs, Fibre restriction/contraindication",
     "ingredients": "WATER, CORN SYRUP, MODIFIED MILK INGREDIENTS, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), CANOLA OIL, SOY PROTEIN ISOLATE, CORN MALTODEXTRIN, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, DIMETHYLPOLYSILOXANE.",
@@ -214,7 +192,6 @@
   },
   {
     "title": "MEDIUM CHAIN TRIGLYCERIDES (MCT OIL)",
-    "image": "MCT-Oil.png",
     "description": "MCT Oil is a modular Medium Chain Triglyceride (MCT) source for patients who poorly digest or absorb conventional fats.",
     "usage": " Defect in the intraluminal hydrolysis of fat (decreased pancreatic lipase, decreased bile salts), Defective mucosal fat absorption (decreased mucosal permeability, decreased absorptive surface), Defective lymphatic transport of fat (i.e. intestinal lymphatic obstruction), Ketogenic Diet",
     "ingredients": "MODIFIED COCONUT AND/OR PALM KERNEL OIL (MEDIUM CHAIN TRIGLYCERIDES).",
@@ -222,7 +199,6 @@
   },
   {
     "title": "MICROLOIPID",
-    "image": "Microlipid.png",
     "description": "Microlipid is a modular 50% fat emulsion for use in oral and tube-feeding formulas.",
     "usage": "Increased caloric requirements, Decreased carbohydrate tolerance, Fluid or volume restriction, Ketogenic Diet",
     "ingredients": "SAFFLOWER OIL, WATER, POLYGLYCEROL ESTERS OF FATTY ACIDS, SOY LECITHIN, XANTHAN GUM, ASCORBIC ACID.",
@@ -230,7 +206,6 @@
   },
   {
     "title": "NOVASOURCE RENAL",
-    "image": "NovasourceRenal.png",
     "description": "Novasource® Renal is a delicious, 2.0 Cal/ml formula with 21.6g of protein per 237 ml serving and lower potassium and phospohorus levels for patients with renal impairment. For oral and tube feeding use.",
     "usage": "Acute renal failure, Chronic renal failure, Electrolyte restriction, Fluid restriction",
     "ingredients": "WATER, CORN SYRUP, CANOLA OIL, SODIUM CASEINATE, CALCIUM CASEINATE, SOY PROTEIN ISOLATE, SUGAR, ARTIFICIAL FLAVOUR, SOY LECITHIN, MICROCRYSTALLINE CELLULOSE, SODIUM CARBOXYMETHYLCELLULOSE, L-CARNITINE, POTASSIUM CITRATE, CITRIC ACID, TAURINE. VITAMINS AND MINERALS: VITAMIN A PALMITATE, BETACAROTENE, CHOLECALCIFEROL, DL-ALPHA-TOCOPHERYL ACETATE, ASCORBIC ACID, FOLIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NICOTINAMIDE, PYRIDOXINE HYDROCHLORIDE, CYANOCOBALAMIN, BIOTIN, D-CALCIUM PANTOTHENATE, VITAMIN K1 (PHYTOMENADIONE), POTASSIUM IODIDE, FERROUS SULPHATE, COPPER GLUCONATE, MANGANESE SULPHATE, ZINC SULPHATE, CHROMIUM TRICHLORIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CALCIUM CARBONATE, CHOLINE CHLORIDE, SODIUM CHLORIDE, MAGNESIUM OXIDE, VITAMIN C (ASCORBIC ACID), POTASSIUM CHLORIDE.",
@@ -238,7 +213,6 @@
   },
   {
     "title": "OPTIFAST 900",
-    "image": "Optifast.png",
     "description": "Meal replacement for weight reduction. For oral use.",
     "usage": "Weight reduction in obesity, Weight reduction prior to bariatric surgery",
     "ingredients": "MILK PROTEIN ISOLATE, FRUCTOSE, CORN MALTODEXTRIN, CANOLA OIL, SOYBEAN OIL, SODIUM CASEINATE, SALT, CITRIC ACID, ARTIFICIAL FLAVOUR, MONOAND DIGLYCERIDES, ASPARTAME, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM-D-PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (DIPOTASSIUM PHOSPHATE, MAGNESIUM OXIDE, POTASSIUM CITRATE, SODIUM CITRATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER GLUCONATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE). ASPARTAME CONTAINS PHENYLALANINE. ",
@@ -247,7 +221,6 @@
   },
   {
     "title": "PEPTAMEN 1.0",
-    "image": "Peptamen1-0.png",
     "description": "Peptamen 1.0 is a 1.0 Cal/ml, peptide-based 100% whey protein, 70% MCT formula that supports feeding tolerance. For tube feeding use.",
     "usage": "GI Impairment: malabsorbtion, delayed gastric emptying, diarrhea, short-bowel syndrome, cystic fibrosis, pancreatitis, Early enteral feeding, Transition from or dual feeding with TPN",
     "ingredients": "WATER, CORN MALTODEXTRIN, PARTIALLY HYDROLYZED WHEY PROTEIN (FROM MILK), MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), CORN STARCH, SOYBEAN OIL, L-CARNITINE, TAURINE, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, SODIUM CITRATE, POTASSIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, MAGNESIUM CHLORIDE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, GUAR GUM, PROTEASE, CITRIC ACID, DIMETHYLPOLYSILOXANE.",
@@ -256,7 +229,6 @@
   },
   {
     "title": "PEPTAMEN WITH PREBIO",
-    "image": "Peptamen-wPrebio.png",
     "description": "Peptamen® 1.0 with Prebio1® is a 1.0 Cal/ml, peptide-based 100% whey protein, 70% MCT formula that supports feeding tolerance. Includes Prebio1, a unique blend of dietary fibres. For oral and tube feeding use.",
     "usage": "GI Impairment: malabsorbtion, delayed gastric emptying, diarrhea, short-bowel syndrome, cystic fibrosis, pancreatitis, Early enteral feeding, Transition from or dual feeding with TPN",
     "ingredients": "WATER, CORN MALTODEXTRIN, PARTIALLY HYDROLYZED WHEY PROTEIN (FROM MILK), MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), CORN STARCH, SOYBEAN OIL, L-CARNITINE, TAURINE, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, SODIUM CITRATE, POTASSIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, MAGNESIUM CHLORIDE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, GUAR GUM, PROTEASE, CITRIC ACID, DIMETHYLPOLYSILOXANE.",
@@ -265,7 +237,6 @@
   },
   {
     "title": "PEPTAMEN AF 1.2",
-    "image": "Peptamen-AF_1_2.png",
     "description": "Peptamen® AF 1.2 is a 1.2 Cal/ml, high protein, peptide-based, 100% whey protein, 50% MCT formula that supports feeding tolerance. Includes Prebio1, a unique blend of dietary fibres, in addition to EPA and DHA. For tube feeding use.",
     "usage": "Critically ill patients, Inflammatory conditions, Sepsis, GI impairment, Elevated protein needs, Diarrhea, Early enteral feeding, Transition from or dual feeding with TPN",
     "ingredients": "WATER, CORN MALTODEXTRIN, PARTIALLY HYDROLYZED WHEY PROTEIN (FROM MILK), MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), CORN STARCH, FISH OIL (FROM ANCHOVY, SARDINE), SOYBEAN OIL, OLIGOFRUCTOSE, INULIN, SALT, L-CARNITINE, TAURINE, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, SODIUM CITRATE, POTASSIUM PHOSPHATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, MAGNESIUM CHLORIDE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, GUAR GUM, PROTEASE, CITRIC ACID, DIMETHYLPOLYSILOXANE.",
@@ -274,7 +245,6 @@
   },
   {
     "title": "PEPTAMEN 1.5",
-    "image": "Peptamen-1_5.png",
     "description": "Peptamen® 1.5 is a 1.5 Cal/ml, peptide-based, 100% whey protein, 70% MCT formula that supports feeding tolerance and addresses nutrition needs in a smaller volume. For oral and tube feeding use.",
     "usage": "GI Impairment: malabsorbtion, delayed gastric emptying, diarrhea, short-bowel syndrome, cystic fibrosis, pancreatitis, Volume sensitivity/restriction, Elevated energy needs, Early enteral feeding, Transition from or dual feeding with TPN",
     "ingredients": "WATER, CORN MALTODEXTRIN, PARTIALLY HYDROLYZED WHEY PROTEIN (FROM MILK), MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), SUGAR, CORN STARCH, SOYBEAN OIL, SALT, L-CARNITINE, TAURINE, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, SODIUM CITRATE, POTASSIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, MAGNESIUM CHLORIDE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, GUAR GUM, NATURAL AND ARTIFICIAL FLAVOUR, PROTEASE, SUCRALOSE, DIMETHYLPOLYSILOXANE.",
@@ -283,7 +253,6 @@
   },
   {
     "title": "PEPTAMEN INTENSE HIGH PROTEIN",
-    "image": "Peptamen-Intense-HP.png",
     "description": "Peptamen INTENSE High Protein is a 1.0 Cal/ml, very high protein, peptide-based, 100% whey protein, 50% MCT formula that supports feeding tolerance. With 37% of calories from protein, Peptamen INTENSE High Protein is formulated to help meet protein needs of patients with elevated requirements. Includes Prebio1TM, a unique blend of dietary fibres, in addition to EPA and DHA. For tube feeding use.",
     "usage": "Acutely ill patients, Critically ill obese patients, Sarcopenia/muscle protein wasting, Elevated protein needs, Inflammatory conditions, Stress-induced hyperglycemia, Modified carbohydrate requirements, GI impairment, Diarrhea, Early enteral feeding, Transition from or dual feeding with TPN",
     "ingredients": "WATER, PARTIALLY HYDROLYZED WHEY PROTEIN (FROM MILK), CORN MALTODEXTRIN, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), CORN STARCH, FISH OIL (FROM ANCHOVY, SARDINE), OLIGOFRUCTOSE, SAFFLOWER OIL, SOYBEAN OIL, INULIN, SALT, TAURINE, L-CARNITINE, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, SODIUM CITRATE, POTASSIUM PHOSPHATE, TRICALCIUM PHOSPHATE, CALCIUM CHLORIDE, MAGNESIUM CHLORIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, GUAR GUM, PROTEASE, CITRIC ACID.",
@@ -292,7 +261,6 @@
   },
   {
     "title": "RESOURCE DIABETIC",
-    "image": "Resource-Diabetic.png",
     "description": "Resource Diabetic is a high protein formula with 24% of calories from protein for people with diabetes. For oral and tube feeding use.",
     "usage": "Diabetes, Impaired glucose tolerance, Stress-induced hyperglycemia, Modified carbohydrate requirements, Increased protein requirements",
     "ingredients": "WATER, CORN SYRUP, SODIUM CASEINATE (FROM MILK), HIGH OLEIC SUNFLOWER OIL, FRUCTOSE, GROUND SOY COTYLEDON FIBRE, SOYBEAN OIL, CALCIUM CASEINATE, SOY PROTEIN ISOLATE, ARTIFICIAL FLAVOUR, TRICALCIUM PHOSPHATE, POTASSIUM CITRATE, MONOGLYCERIDES, MAGNESIUM CHLORIDE, POTASSIUM CHLORIDE, POTASSIUM HYDROXIDE, SODIUM PHOSPHATE, CHOLINE CHLORIDE, SODIUM ASCORBATE (VITAMIN C), L-CARNITINE, SODIUM CITRATE, INOSITOL, TAURINE, FERROUS SULPHATE (IRON), ZINC SULPHATE, NIACINAMIDE, ALPHA TOCOPHERYL ACETATE (VITAMIN E), CALCIUM PANTOTHENATE (PANTOTHENIC ACID), MANGANESE SULPHATE, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, COPPER SULPHATE, RIBOFLAVIN, THIAMINE MONONITRATE, BETA CAROTENE, VITAMIN A PALMITATE, SODIUM MOLYBDATE (MOLYBDENUM), BIOTIN, CHROMIUM CHLORIDE, POTASSIUM IODIDE (IODINE), SODIUM SELENATE (SELENIUM), VITAMIN K1, VITAMIN D3, CYANOCOBALAMIN, DIMETHYLPOLYSILOXANE.",
@@ -300,7 +268,6 @@
   },
   {
     "title": "RESOURCE THICKENUP",
-    "image": "ThickenUp.png",
     "description": "Resource ThickenUp is a starch-based powdered thickener. Can be added to most hot and cold liquids and food.",
     "usage": "Dysphagia",
     "ingredients": "MODIFIED FOOD STARCH (CORN)",
@@ -309,7 +276,6 @@
   },
   {
     "title": "RESOURCE THICKENUP CLEAR",
-    "image": "Resource-ThickenUp-clear.png",
     "description": "Resource ThickenUp Clear is a xanthan-based powdered thickener that remains clear, lump-free, tasteless, odourless, and maintains consistency over time after mixing. Resource ThickenUp Clear is clinically demonstrated to improve swallowing safety. Can be added to most hot and cold liquids.",
     "usage": "Dysphagia",
     "ingredients": "CORN AND POTATO MALTODEXTRIN, XANTHAN GUM, POTASSIUM CHLORIDE.",
@@ -318,7 +284,6 @@
   },
   {
     "title": "RESOURCE 2.0",
-    "image": "Resource-2-0.png",
     "description": "Resource® 2.0 is a calorie dense, 2.0 Cal/ml, high protein, complete nutrition formula. For oral and tube feeding use.",
     "usage": "Fluid restriction/volume intolerance, Elevated calorie and protein needs, Patients at risk for, or with pressure ulcers, Patients prescribed a Medication Pass Program",
     "ingredients": "WATER, CORN SYRUP, CANOLA OIL, CALCIUM CASEINATE (FROM MILK), SUGAR, SODIUM CASEINATE, POTASSIUM CITRATE, DISTILLED MONOGLYCERIDES, TRISODIUM CITRATE, MICROCRYSTALLINE CELLULOSE, CELLULOSE GUM, CITRIC ACID, SOY LECITHIN, NATURAL AND ARTIFICIAL FLAVOUR, POLYDIMETHYLSILOXANE, VITAMINS AND MINERALS (MAGNESIUM CHLORIDE, POTASSIUM PHOSPHATE, SODIUM ASCORBATE, CHOLINE CHLORIDE, MAGNESIUM OXIDE, TRICALCIUM PHOSPHATE, SODIUM CHLORIDE, DL-ALPHA-TOCOPHEROL ACETATE, FERROUS SULPHATE, ZINC SULPHATE, NIACINAMIDE, CALCIUM PANTOTHENATE, COPPER GLUCONATE, MANGANESE SULPHATE, VITAMIN A PALMITATE, PYRIDOXINE HYDROCHLORIDE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, FOLIC ACID, VITAMIN D3, VITAMIN K1, VITAMIN B12, BIOTIN, POTASSIUM IODIDE, SODIUM MOLYBDATE, SODIUM SELENITE, CHROMIUM TRICHLORIDE).",
@@ -327,7 +292,6 @@
   },
   {
     "title": "TOLOREX",
-    "image": "Tolerex.png",
     "description": "Tolerex is a powdered, nutritonally complete, elemental formula with 100% free amino acids providing 1.0 Cal/ml, with 8.2% protein equivalent and 1.7% calories from fat for the severely compromised GI tract. For oral and tube feeding use.",
     "usage": "Severely impaired GI function: Severe protein and fat malabsorption, TPN alternative, Transition from TPN, Dual feeding with TPN",
     "ingredients": "MALTODEXTRIN (FROM CORN) AND LESS THAN 2% OF MAGNESIUM GLUCONATE, L-GLUTAMINE, CALCIUM GLYCEROPHOSPHATE, MODIFIED CORNSTARCH, L-ARGININE ACETATE, L-ASPARTIC ACID, SAFFLOWER OIL, GLYCINE, L-LYSINE ACETATE, L-LEUCINE, L-PROLINE, POTASSIUM CHLORIDE, L-PHENYLALANINE, L-VALINE, POTASSIUM SORBATE (TO PRESERVE FRESHNESS), L-ALANINE, L-METHIONINE, L-ISOLEUCINE, L-THREONINE, POTASSIUM CITRATE, SODIUM PHOSPHATE, L-SERINE, L-HISTIDINE HYDROCHLORIDE, SODIUM CITRATE, L-TRYPTOPHAN, L-TYROSINE, ASCORBIC ACID (VITAMIN C), CHOLINE BITARTRATE, DL-ALPHA-TOCOPHERYL ACETATE (VITAMIN E), POLYSORBATE 80, FERROUS SULFATE (IRON), ZINC SULFATE, VITAMIN A PALMITATE, NIACINAMIDE, COPPER GLUCONATE, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), VITAMIN D3 (CHOLECALCIFEROL), ASCORBYL PALMITATE AND BHA AND BHT AND TOCOPHEROLS (TO PRESERVE FRESHNESS), MANGANESE SULFATE, PYRIDOXINE HYDROCHLORIDE (VITAMIN B6), THIAMINE HYDROCHLORIDE, RIBOFLAVIN, CHROMIUM CHLORIDE, FOLIC ACID, BIOTIN, SODIUM SELENITE (SELENIUM), POTASSIUM IODIDE (IODINE), VITAMIN K1 (PHYTONADIONE), SODIUM MOLYBDATE (MOLYBDENUM), VITAMIN B12 (CYANOCOBALAMIN)",
@@ -336,7 +300,6 @@
   },
   {
     "title": "VIVONEX PLUS",
-    "image": "Vivonex-plus.png",
     "description": "Vivonex Plus is a powdered, nutritionally complete, elemental formula with 100% free amino acids providing 1.0 Cal/ml with 18% protein equivalent and 6% calories from fat for severely compromised GI tract. For oral and tube feeding use.",
     "usage": "Severe protein and fat malabsorption, Extensive bowel resection, Early postoperative feeding, TPN alternative, Transition from TPN, Dual feeding with TPN",
     "ingredients": "CORN MALTODEXTRIN, AMINO ACIDS (L-GLUTAMINE, L-LEUCINE, L-ARGININE ACETATE, L-LYSINE ACETATE, L-ISOLEUCINE, L-VALINE, LPHENYLALANINE, L-THREONINE, L-CYSTEINE HYDROCHLORIDE, L-METHIONINE, L-TYROSINE, L-HISTIDINE HYDROCHLORIDE, L-ASPARTIC ACID, L-PROLINE, L-TRYPTOPHAN, L-SERINE, L-ALANINE, GLYCINE), MODIFIED CORN STARCH, SOYBEAN OIL, TAURINE, L-CARNITINE, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE BITARTRATE), MINERALS (SODIUM CITRATE, SODIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM GLYCEROPHOSPHATE, MAGNESIUM GLUCONATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER GLUCONATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CITRIC ACID, POTASSIUM SORBATE",
@@ -345,7 +308,6 @@
   },
   {
     "title": "VIVONEX T-E-N",
-    "image": "Vivonex_TEN.png",
     "description": "Vivonex T·E·N is a powdered, nutritionally complete, elemental formula with 100% free amino acids providing 1.0 Cal/ml with 15% protein equivalent and 3% calories from fat for severely compromised GI tract. For oral and tube feeding use.",
     "usage": "Severe protein and fat malabsorption, Extensive bowel resection, Early postoperative feeding, TPN alternative, Transition from TPN, Dual feeding with TPN",
     "ingredients": "MALTODEXTRIN (FROM CORN), MODIFIED CORNSTARCH, L-LEUCINE AND LESS THAN 2% OF L-GLUTAMINE, MAGNESIUM GLUCONATE, L-ARGININE ACETATE, L-ISOLEUCINE, L-VALINE, CALCIUM GLYCEROPHOSPHATE, SAFFLOWER OIL, L-LYSINE ACETATE, L-ASPARTIC ACID, L-ALANINE, L-PHENYALANINE, L-PROLINE, SODIUM CITRATE, POTASSIUM CITRATE, GLYCINE, L-THREONINE, L-HISTIDINE HYDROCHLORIDE, L-SERINE, L-CYSTEINE HYDROCHLORIDE, L-METHIONINE, DISODIUM PHOSPHATE, POTASSIUM CHLORIDE, CHOLINE BITARTRATE, L-TRYPTOPHAN, L-TYROSINE, ASCORBIC ACID (VITAMIN C), TAURINE, POLYSORBATE 80, L-CARNITINE, DL-ALPHATOCOPHERYL ACETATE (VITAMIN E), ZINC SULFATE, FERROUS SULFATE (IRON), NIACINAMIDE, VITAMIN A PALMITATE, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), COPPER GLUCONATE, POTASSIUM SORBATE AND ASCORBYL PALMITATE AND TOCOPHEROLS AND BHA/BHT (TO HELP MAINTAIN FRESHNESS), PYRIDOXINE HYDROCHLORIDE (VITAMIN B6), MANGANESE SULFATE, VITAMIN D3 (CHOLECALCIFEROL), RIBOFLAVIN (VITAMIN B2), THIAMINE HYDROCHLORIDE (VITAMIN B1), CHROMIUM CHLORIDE, FOLIC ACID, BIOTIN, POTASSIUM IODIDE (IODINE), SODIUM MOLYBDATE (MOLYBDENUM), SODIUM SELENITE (SELENIUM), VITAMIN K1 (PHYTONADIONE), VITAMIN B12 (CYANOCOBALAMIN).",
@@ -354,7 +316,6 @@
   },
   {
     "title": "COMPLEAT PEDIATRIC",
-    "image": "compleat-pediatric.png",
     "description": "Compleat Pediatric is a tube feeding formula with real food ingredients including chicken, peas, carrots, peaches, tomato, green beans, and cranberry juice for children ages 1-13 years. This formula contains a blend of fibre and protein sources, and does not contain corn or soy. For tube feeding use.",
     "usage": "Convenient alternative to homemade tube feeding, Growth failure, Short or long-term tube feeding regimens, Nutrient-rich base for home blenderized tube feeding",
     "ingredients": "WATER, BROWN RICE SYRUP, DRIED CHICKEN MEAT, CANOLA OIL, MILK PROTEIN, PEA PROTEIN ISOLATE, DRIED GREEN PEAS, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT/AND OR PALM KERNEL OIL), TOMATO PASTE, DRIED GREEN BEANS, PEACH PURÉE CONCENTRATE, PEA FIBRE, DRIED CARROTS, CRANBERRY JUICE CONCENTRATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, SALT, ROSEMARY EXTRACT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM CITRATE, SODIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, POTASSIUM HYDRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SILICON DIOXIDE, CITRIC ACID, DIMETHYLPOLYSILOXANE. ",
@@ -363,7 +324,6 @@
   },
   {
     "title": "COMPLEAT PEDIATRIC ORGANIC BLENDS",
-    "image": "Compleat-pediatric-OrganicBlends.jpg",
     "description": "Compleat Pediatric® Organic Blends is a 1.2 Cal/ml plant-based, real food ingredients formula for children 1-13 years. It contains a blend of organic whole foods, with plant-based protein sources and fibre from vegetables and fruit. This formula does not contain dairy, soy, or corn. For oral and tube feeding use",
     "usage": "Convenient alternative to homemade tube feeding, Growth failure, Short or long-term tube feeding regimens, Nutrient-rich base for home blenderized tube feeding",
     "ingredients": "SWEET POTATO PURÉE*, WATER, PEAR PURÉE*, BROWN RICE FLOUR*, HYDROLYZED PEA PROTEIN*, EXTRA VIRGIN OLIVE OIL*, CANOLA OIL*, BLUEBERRY PURÉE*, KALE PURÉE*, RICE PROTEIN CONCENTRATE*, SALT, CINNAMON*, GINGER*, TAURINE, L-CARNITINE, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE BITARTRATE, INOSITOL), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, TRICALCIUM PHOSPHATE, MAGNESIUM CHLORIDE, FERROUS SULPHATE, ZINC SULFATE, COPPER SULFATE, POTASSIUM IODIDE, SODIUM SELENATE, CHROMIUM TRICHLORIDE), ASCORBIC ACID. * DENOTES ORGANIC",
@@ -371,7 +331,6 @@
   },
   {
     "title": "MODULEN IBD",
-    "image": "Modulen-IBD.png",
     "description": "Modulen IBD is a great tasting, nutritionally complete powdered formula designed for people with Crohn’s disease. The milk protein has been specially processed to retain TGF-ß2. For oral and tube feeding use",
     "usage": "For the management of Crohns Disease: during the active phase, During the remission phase, Providing nutritional support for mucosal integrity, Improving nutritional status, Promoting linear growth",
     "ingredients": "CORN SYRUP, CASEIN (FROM MILK), SUGAR (SUCROSE), MILK FAT, MEDIUM CHAIN TRIGLYCERIDES, CORN OIL, SOYA LECITHIN, VITAMINS AND MINERALS: POTASSIUM CITRATE, CALCIUM PHOSPHATE, SODIUM CITRATE, CALCIUM CARBONATE, MAGNESIUM CHLORIDE, POTASSIUM HYDROXIDE, POTASSIUM CHLORIDE, SODIUM ASCORBATE, CHOLINE BITARTRATE, FERROUS SULPHATE, DL-ALPHA-TOCOPHERYL ACETATE, ZINC SULPHATE, MAGNESIUM OXIDE, NICOTINAMIDE, CALCIUM PANTOTHENATE, MANGANESE SULPHATE, PYRIDOXINE HYDROCHLORIDE, THIAMINE HYDROCHLORIDE, COPPER SULPHATE, RETINYL ACETATE, RIBOFLAVIN, FOLIC ACID, SODIUM MOLYBDATE, POTASSIUM IODIDE, CHROMIUM CHLORIDE, PHYLLOQUINONE, SODIUM SELENATE, BIOTIN, CHOLECALCIFEROL, CYANOCOBALAMIN.",
@@ -380,7 +339,6 @@
   },
   {
     "title": "NUTREN JUNIOR",
-    "image": "Nutren-Junior.png",
     "description": "Nutren Junior is formulated to meet the nutritional needs of children 1-13 years. Nutren Junior is a 1.0 Cal/ml formula that contains 50% whey protein to facilitate gastric emptying. For oral and tube feeding use.",
     "usage": "Mild to moderate reflux, Growth failure, Inadequate oral intake",
     "ingredients": "WATER, CORN MALTODEXTRIN, MODIFIED MILK INGREDIENTS, SOYBEAN OIL, SUGAR, CANOLA OIL, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OILS), SALT, TAURINE, L-CARNITINE, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE, INOSITOL), MINERALS (SODIUM PHOSPHATE, DIPOTASSIUM PHOSHATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, CALCIUM CITRATE, DIMAGNESIUM PHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, ARTIFICIAL FLAVOUR, CARRAGEENAN, STEVIA EXTRACT, DIMETHYLPOLYSILOXANE.",
@@ -389,7 +347,6 @@
   },
   {
     "title": "NUTREN JUNIOR FIBRES",
-    "image": "Nutren-Junior-Fibre.png",
     "description": "Nutren Junior Fibre is formulated to meet the nutritional needs of children 1-13 years. Nutren® Junior Fibre is a 1.0 Cal/ml formula that contains 50% whey protein to facilitate gastric emptying, with Pea Fibre and Prebio1TM which is a unique blend of dietary fibres. For oral and tube feeding use",
     "usage": "Mild to moderate reflux, Growth failure, Inadequate oral intake, Where fibre is indicated",
     "ingredients": "WATER, CORN MALTODEXTRIN, MODIFIED MILK INGREDIENTS, SOYBEAN OIL, SUGAR, CANOLA OIL, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OILS), PEA HULL FIBRE, OLIGOFRUCTOSE, INULIN, SALT, TAURINE, L-CARNITINE, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE, INOSITOL), MINERALS (SODIUM PHOSPHATE, DIPOTASSIUM PHOSHATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, CALCIUM CITRATE, DIMAGNESIUM PHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, ARTIFICIAL FLAVOUR, CARRAGEENAN, STEVIA EXTRACT, DIMETHYLPOLYSILOXANE.",
@@ -398,7 +355,6 @@
   },
   {
     "title": "PEPTAMEN JUNIOR",
-    "image": "Peptamen-Junior.png",
     "description": "Peptamen Junior is formulated to meet the nutritional needs of children 1-13 years. Peptamen Junior is a 1.0 Cal/ml formula, with a peptide based, 100% whey protein designed for enhanced digestion and protein absorption and 60% MCT designed for enhanced lipid absorption to support feeding tolerance. For oral and tube feeding use.",
     "usage": "Malabsorption, Delayed gastric emptying, Diarrhea, Short-bowel syndrome, Cystic Fibrosis, Radiation enteritis, Early enteral feeding, Transition from or dual feeding with TPN",
     "ingredients": "WATER, CORN MALTODEXTRIN, PARTIALLY HYDROLYZED WHEY PROTEIN (FROM MILK), MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OILS), SUGAR, CORN STARCH, SOYBEAN OIL, CANOLA OIL, MONK FRUIT JUICE CONCENTRATE, SALT, TAURINE, L-CARNITINE, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE, CALCIUM CYANOCOBALAMIN, CHOLINE CHLORIDE, INOSITOL), MINERALS (SODIUM PHOSPHATE, SODIUM CITRATE, POTASSIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, CALCIUM CITRATE, MAGNESIUM CHLORIDE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, GUAR GUM, FLAVOUR, PROTEASE, SUCRALOSE, CITRIC ACID.",
@@ -407,7 +363,6 @@
   },
   {
     "title": "PEPTAMEN JUNIOR 1.5",
-    "image": "Peptamen-Junior-1_5.png",
     "description": "Peptamen Junior 1.5 is formulated to meet the nutritional needs of children 1-13 years. Peptamen Junior 1.5 is a 1.5 Cal/ml formula for elevated energy needs or volume sensitivities. It includes a peptide based, 100% whey protein for enhanced digestion and protein absorption, 60% MCT for enhanced lipid absorption, with EPA, DHA and Prebio1TM. Prebio1TM is a unique blend of dietary fibres. For tube feeding use.",
     "usage": "Malabsorption, Delayed gastric emptying, Diarrhea, Short-bowel syndrome, Cystic Fibrosis, Radiation enteritis, Early enteral feeding, Transition from or dual feeding with TPN, Volume restrictions, Increased energy needs",
     "ingredients": "WATER, MALTODEXTRIN, PARTIALLY HYDROLYZED WHEY PROTEIN (FROM MILK), MEDIUM-CHAIN TRIGLYCERIDES (FROM COCONUT AND PALM KERNEL OIL), SOYBEAN OIL, CORNSTARCH, CANOLA OIL, OLIGOFRUCTOSE, CALCIUM PHOSPHATE, SOY LECITHIN, TUNA OIL, INULIN, POTASSIUM CHLORIDE, SODIUM PHOSPHATE, GUAR GUM, MAGNESIUM CHLORIDE, POTASSIUM CITRATE, CHOLINE CHLORIDE, SODIUM ASCORBATE (VITAMIN C), SODIUM CHLORIDE, TAURINE, BETA-CAROTENE, MAGNESIUM OXIDE, INOSITOL, L-CARNITINE, VITAMIN E ACETATE, FERROUS SULPHATE (IRON), ZINC SULPHATE, BIOTIN, NIACINAMIDE, CALCIUM PANTOTHENATE, VITAMIN A PALMITATE, CITRIC ACID, VITAMIN D3, VITAMIN K1, MANGANESE SULPHATE, THIAMINE MONONITRATE, PYRIDOXINE HYDROCHLORIDE, COPPER SULPHATE, RIBOFLAVIN, POTASSIUM IODIDE, CYANOCOBALAMIN, FOLIC ACID, CHROMIUM CHLORIDE, SODIUM SELENATE (SELENIUM), TRYPSIN.",
@@ -415,7 +370,6 @@
   },
   {
     "title": "RESOURCE KIDS ESSENTIALS 1.5",
-    "image": "Resource-KidEssentials_1_5.png",
     "description": "Resource Kid Essentials 1.5 is formulated to meet the nutritional needs of children 1-13 years. It is a 1.5 Cal/ml, whole-protein formula in vanilla flavour delivering more calories in less volume than standard 1.0 Cal/ml formulas. For oral and tube feeding use.",
     "usage": "Growth failure, Inadequate oral intake, Volume restrictions, Increased energy needs",
     "ingredients": "WATER, MALTODEXTRIN, SOYBEAN OIL, SUGAR, SODIUM CASEINATE (FROM COW’S MILK), HIGH OLEIC SUNFLOWER OIL, WHEY PROTEIN CONCENTRATE, MEDIUM-CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), PARTIALLY HYDROLYSED GUAR GUM, CALCIUM CASEINATE, ARTIFICIAL FLAVOUR, TRICALCIUM PHOSPHATE, GROUND SOY COTYLEDON FIBRE, POTASSIUM CITRATE, SOY LECITHIN, TRIMAGNESIUM PHOSPHATE, SALT, CHOLINE CHLORIDE, ASCORBIC ACID, CARRAGEENAN, POTASSIUM CHLORIDE, POTASSIUM HYDROXIDE, DIMETHYLPOLYSILOXANE, VITAMIN A PALMITATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NICOTINAMIDE, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), CYANOCOBALMIN, BIOTIN, INOSITOL, TAURINE, FERROUS SULPHATE (IRON), COPPER GLUCONATE, ZINC SULPHATE, POTASSIUM IODIDE (IODINE), MANGANESE SULPHATE, SODIUM SELENITE (SELENIUM), SODIUM MOLYBDATE (MOLYBDENUM), CHROMIUM TRICHLORIDE, BETA-CAROTENE, VITAMIN D3, ALPHATOCOPHERYL ACETATE, VITAMIN K1. ",
@@ -423,7 +377,6 @@
   },
   {
     "title": "VIVONEX PEDIATRIC",
-    "image": "Vivonex-Pediatric.png",
     "description": "Vivonex Pediatric is a powdered, nutritionally complete, elemental formula with 100% free amino acids providing 0.8 Cal/ml in standard dilution, designed for children 1-13 years.",
     "usage": " Severely impaired GI function, Transition from TPN, Short bowel syndrome, Malabsorption syndrome, Inadequate oral intake",
     "ingredients": "MALTODEXTRIN (CORN), MODIFIED CORN STARCH, MODIFIED COCONUT AND/OR PALM KERNEL OIL (MEDIUM CHAIN TRIGLYCERIDES), SOYBEAN OIL (WITH BHA/BHT), CALCIUM GLYCEROPHOSPHATE, L-GLUTAMINE, MAGNESIUM GLUCONATE, L-LYSINE ACETATE, L-LEUCINE, L-ARGININE ACETATE, POTASSIUM CHLORIDE, L-VALINE, CITRIC ACID, L-ISOLEUCINE, L-ASPARTIC ACID, L-ALANINE, L-PHENYLALANINE, L-SERINE, L-PROLINE, L-THREONINE, L-TYROSINE, L-GLUTAMIC ACID, GLYCINE, L-HISTIDINE MONOHYDROCHLORIDE MONOHYDRATE, L-METHIONINE, POTASSIUM CITRATE, L-CYSTINE, CHOLINE BITARTRATE, POLYGLYCEROL ESTERS OF FATTY ACIDS, SODIUM CITRATE, SODIUM PHOSPHATE DIBASIC, L-TRYPTOPHAN, POTASSIUM SORBATE, ASCORBIC ACID, TAURINE, ZINC SULPHATE, FERROUS SULPHATE, NIACINAMIDE, L-CARNITINE, ALPHA TOCOPHERYL ACETATE, ALPHA TOCOPHEROL, COPPER GLUCONATE, D-CALCIUM PANTOTHENATE, MANGANESE SULPHATE, PYRIDOXINE HYDROCHLORIDE, RIBOFLAVIN, THIAMINE HYDROCHLORIDE, VITAMIN A PALMITATE, BETA-CAROTENE, FOLIC ACID, CHROMIUM CHLORIDE, SODIUM MOLYBDATE, POTASSIUM IODIDE, BIOTIN, SODIUM SELENITE, VITAMIN K1, VITAMIN D3, CYANOCOBALAMIN.",
