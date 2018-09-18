@@ -22,8 +22,6 @@ class CreateFormulaOverviews < ActiveRecord::Migration[5.2]
       t.string :lactose
       t.string :low_residue
       t.references :formula, foreign_key: true
-
-      t.timestamps
     end
   end
 end

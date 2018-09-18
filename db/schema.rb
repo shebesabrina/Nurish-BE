@@ -37,8 +37,6 @@ ActiveRecord::Schema.define(version: 2018_09_12_015906) do
     t.string "lactose"
     t.string "low_residue"
     t.bigint "formula_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.index ["formula_id"], name: "index_formula_overviews_on_formula_id"
   end
 
@@ -49,8 +47,6 @@ ActiveRecord::Schema.define(version: 2018_09_12_015906) do
     t.text "ingredients"
     t.string "hcpc"
     t.string "restrictions"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "nutritional_contents", force: :cascade do |t|
@@ -64,8 +60,6 @@ ActiveRecord::Schema.define(version: 2018_09_12_015906) do
     t.string "potassium"
     t.string "serving_size"
     t.bigint "formula_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.index ["formula_id"], name: "index_nutritional_contents_on_formula_id"
   end
 

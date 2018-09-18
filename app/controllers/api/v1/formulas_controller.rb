@@ -4,7 +4,6 @@ class Api::V1::FormulasController < ApplicationController
     if params["allergens"]
       allergens = params["allergens"].split(",")
       formula  = eval Formula.accumulator(allergens)
-      # binding.pry
       render json: formula
     elsif params["hcpc"]
       # hcpc = Formula.where(hcpc: params["hcpc"])

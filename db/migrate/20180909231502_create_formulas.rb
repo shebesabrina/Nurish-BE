@@ -7,8 +7,6 @@ class CreateFormulas < ActiveRecord::Migration[5.2]
       t.text :ingredients
       t.string :hcpc
       t.string :restrictions
-
-      t.timestamps
     end
   end
 end
