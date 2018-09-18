@@ -6,7 +6,6 @@ class Api::V1::FormulasController < ApplicationController
       formula  = eval Formula.accumulator(allergens)
       render json: formula
     elsif params["hcpc"]
-      # hcpc = Formula.where(hcpc: params["hcpc"])
       hcpc = Formula.where('hcpc ILIKE ?', "%#{params["hcpc"]}")
       render json: hcpc
     elsif params["gluten_free"]
@@ -15,16 +14,12 @@ class Api::V1::FormulasController < ApplicationController
       render json: gluten
     elsif params["mct_lct"]
       if params["mct_lct"] == "low"
-      # mct = Formula.joins(:formula_overview)
-      # .where('formula_overviews.mct_lct LIKE ?', "20%")
-      # .pluck(:title, :mct_lct)
       #LOW
       low = Formula.find_by_sql("SELECT formulas.title, formulas.id, formula_overviews.mct_lct FROM formulas
                   INNER JOIN formula_overviews ON formula_overviews.formula_id = formulas.id
                   WHERE (formula_overviews.mct_lct < '25')")
       render json: low
       elsif params["mct_lct"] == "medium"
-        # binding.pry
       #MEDIUM
       medium = Formula.find_by_sql("SELECT formulas.title, formulas.id, formula_overviews.mct_lct FROM formulas
                   INNER JOIN formula_overviews ON formula_overviews.formula_id = formulas.id
@@ -39,12 +34,10 @@ class Api::V1::FormulasController < ApplicationController
       render json: high
       else
         render json: Formula.all
-      # binding.pry
       end
     elsif params["type"]
       type = params["type"]
       formula  = Formula.where('usage ILIKE ?', "%#{type}%")
-      # binding.pry
       render json: formula
     else
       render json: Formula.all
@@ -56,9 +49,3 @@ class Api::V1::FormulasController < ApplicationController
   end
 
 end
-
-# Formula.includes(:nutritional_content)
-# Formula.includes(:formula_overview)
-# Formula.select(:title).joins(:formula_overview).where("formula_overviews.gluten_free = 'Y'")
-# SELECT "formulas"."title" FROM "formulas" INNER JOIN "formula_overviews" ON "formula_overviews"."formula_id" = "formulas"."id" WHERE (formula_overviews.mct_lct <= '25' AND mct_lct >= '50');
-# localhost:3000/api/v1/formulas?mct_lct=low&whatever=blah,foo,bar
