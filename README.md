@@ -12,15 +12,13 @@
 3. Install the dependencies
 
   ```shell
-  bundle
+  bundle install
   ```
 
 3. Set up the database
 
   ```shell
-  rake db:create
-  rake db:migrate
-  rake db:seed
+  rake db:{create,migrate,seed}
   ```
 
 4. Run test suite
