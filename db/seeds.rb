@@ -10,8 +10,8 @@ records.each_with_index do |record, index|
 end
 
 
-records = JSON.parse(File.read('db/nutritional_content.json'))
+records = JSON.parse(File.read('db/new_nutritional_content.json'))
 records.each_with_index do |record, index|
-  record[:formula_id] = index + 1
-  NutritionalContent.create!(record)
+  formula_id = index + 1
+  NutritionalContent.create!(properties: record, formula_id: formula_id)
 end
