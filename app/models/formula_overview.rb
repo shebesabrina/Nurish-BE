@@ -11,7 +11,7 @@ class FormulaOverview < ApplicationRecord
   belongs_to :formula
 
   def self.search(key_word)
-    # gluten = key_word.include?('gluten') && key_word.include?('free') ? 'Y' : 'N'
+    gluten = key_word.include?('gluten') && key_word.include?('free') ? 'Y' : 'N'
     # lactose_free = key_word.include?('lactose') && key_word.include?('free') ? 'Y' : 'N'
     # kosher = key_word.include?('kosher') ? 'Y' : 'N'
 
@@ -32,8 +32,7 @@ class FormulaOverview < ApplicationRecord
            .or(FormulaOverview.where("osmolality ILIKE ?", "%#{key_word}%"))
            .or(FormulaOverview.where("lactose ILIKE ?", "%#{key_word}%"))
            .or(FormulaOverview.where("low_residue ILIKE ?", "%#{key_word}%"))
-           .or(FormulaOverview.where("%#{key_word}% ILIKE ?", "Y"))
-           # .or(FormulaOverview.where(gluten_free: gluten))
+           .or(FormulaOverview.where(gluten_free: gluten))
            # .or(FormulaOverview.where(lactose_free: lactose_free))
            # .or(FormulaOverview.where(kosher: kosher))
     formula_overviews.map { |fo| fo.formula }

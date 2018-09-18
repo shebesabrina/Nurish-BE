@@ -191,7 +191,7 @@ describe 'Formula API' do
   end
 
   describe 'Search key words' do
-    it 'should display all results based on users search' do
+    it 'should display all gluten free options' do
       formula_1 = create(:formula, usage: 'Poor appetite, Involuntary weight loss, malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery')
       formula_2 = create(:formula, usage: 'Diabetes, Impaired glucose tolerance, Stress-induced hyperglycemia, Modified carbohydrate requirements, Increased protein requirements')
       formula_3 = create(:formula, usage: 'Standard, whole-protein tube feeding needs, Elevated calorie needs, Fibre restriction/contraindication')
@@ -208,6 +208,27 @@ describe 'Formula API' do
       expect(formula.count).to eq(1)
       expect(formula.first.to_json).to_not eq(formula_1.to_json)
       expect(formula.first.to_json).to eq(formula_2.to_json)
+    end
+  end
+
+  describe 'Search key words' do
+    it 'should display all caloric dense formulas' do
+      formula_1 = create(:formula, usage: 'Poor appetite, Involuntary weight loss, malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery')
+      formula_2 = create(:formula, usage: 'Diabetes, Impaired glucose tolerance, Stress-induced hyperglycemia, Modified carbohydrate requirements, Increased protein requirements')
+      formula_3 = create(:formula, usage: 'Standard, whole-protein tube feeding needs, Elevated calorie needs, Fibre restriction/contraindication')
+
+      create(:formula_overview, caloric_density: '2.0', formula: formula_1)
+      create(:formula_overview, caloric_density: '1.0', formula: formula_2)
+
+      get "/api/v1/search?key_word=2.0"
+
+      formula = JSON.parse(response.body)
+
+      expect(response).to be_successful
+
+      expect(formula.count).to eq(1)
+      expect(formula.first.to_json).to eq(formula_1.to_json)
+      expect(formula.first.to_json).to_not eq(formula_2.to_json)
     end
   end
 end
