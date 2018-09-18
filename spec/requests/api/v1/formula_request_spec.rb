@@ -53,8 +53,9 @@ describe 'Formula API' do
     formula = JSON.parse(response.body)
 
     expect(response).to be_successful
-    
+
     expect(formula.count).to eq(1)
+
     expect(formula.first["ingredients"]).to_not eq(corn_starch_upcase)
     expect(formula.first["ingredients"]).to_not eq(corn_starch_downcase)
     expect(formula.first["ingredients"]).to_not eq(milk_downcase)
@@ -162,6 +163,51 @@ describe 'Formula API' do
       expect(formula.first.to_json).to eq(formula_2.to_json)
       expect(formula.first.to_json).to_not eq(formula_3.to_json)
       # expect(formula.first.to_json).to eq(water.to_json)
+    end
+  end
+
+  describe 'Search key words' do
+    it 'should display all results based on users search' do
+      formula_1 = create(:formula, usage: 'Poor appetite, Involuntary weight loss, malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery')
+      formula_2 = create(:formula, usage: 'Diabetes, Impaired glucose tolerance, Stress-induced hyperglycemia, Modified carbohydrate requirements, Increased protein requirements')
+      formula_3 = create(:formula, usage: 'Standard, whole-protein tube feeding needs, Elevated calorie needs, Fibre restriction/contraindication')
+
+      low = create(:formula_overview, mct_lct: '20:80', formula: formula_1)
+      mid = create(:formula_overview, mct_lct: '50:80', formula: formula_2)
+      high = create(:formula_overview, mct_lct: '75:80', formula: formula_3)
+
+      get "/api/v1/search?key_word=diabetes"
+
+      formula = JSON.parse(response.body)
+
+      expect(response).to be_successful
+
+      expect(formula.count).to eq(1)
+      expect(formula.first.to_json).to_not eq(formula_1.to_json)
+      expect(formula.first.to_json).to eq(formula_2.to_json)
+      expect(formula.first.to_json).to_not eq(formula_3.to_json)
+      # expect(formula.first.to_json).to eq(water.to_json)
+    end
+  end
+
+  describe 'Search key words' do
+    it 'should display all results based on users search' do
+      formula_1 = create(:formula, usage: 'Poor appetite, Involuntary weight loss, malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery')
+      formula_2 = create(:formula, usage: 'Diabetes, Impaired glucose tolerance, Stress-induced hyperglycemia, Modified carbohydrate requirements, Increased protein requirements')
+      formula_3 = create(:formula, usage: 'Standard, whole-protein tube feeding needs, Elevated calorie needs, Fibre restriction/contraindication')
+
+      create(:formula_overview, gluten_free: 'N', formula: formula_1)
+      create(:formula_overview, gluten_free: 'Y', formula: formula_2)
+
+      get "/api/v1/search?key_word=gluten_free"
+
+      formula = JSON.parse(response.body)
+
+      expect(response).to be_successful
+
+      expect(formula.count).to eq(1)
+      expect(formula.first.to_json).to_not eq(formula_1.to_json)
+      expect(formula.first.to_json).to eq(formula_2.to_json)
     end
   end
 end
