@@ -19,7 +19,6 @@ describe 'Formula API' do
     get "/api/v1/formulas/#{id}"
 
     formula = JSON.parse(response.body)
-
     expect(response).to be_successful
     expect(formula["id"]).to eq(id)
   end
