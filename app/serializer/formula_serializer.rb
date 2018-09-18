@@ -5,7 +5,7 @@ class FormulaSerializer < ActiveModel::Serializer
   has_one :nutritional_content
 
   def restrictions
-    object.restrictions if object.restrictions != null
+    object.restrictions if cdobject.restrictions != null
   end
 
 end
