@@ -20,6 +20,6 @@ class FormulaOverviewSerializer < ActiveModel::Serializer
              :lactose_free,
              :lactose,
              :low_residue
-             
+
   belongs_to :formula
 end
