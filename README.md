@@ -257,3 +257,55 @@ rails s
     }
 ]
 ```
+5. The last filter is by MCT oil percentage. The range of low is less than 25%, medium is 25% - 50%, and the high is more than 50% MCT oil. The result returns the formula and the percentage of the formula:
+    - GET "localhost:3000/api/v1/formulas?mct_lct=high"
+    - https://nurish-app.herokuapp.com/api/v1/formulas?mct_lct=high
+```
+[
+    {
+        "id": 22,
+        "title": "ISOSOURCE 1.5",
+        "mct_lct": "50:50"
+    },
+    {
+        "id": 26,
+        "title": "MICROLOIPID",
+        "mct_lct": "70:30"
+    },
+    {
+        "id": 27,
+        "title": "NOVASOURCE RENAL",
+        "mct_lct": "70:30"
+    },
+    {
+        "id": 28,
+        "title": "OPTIFAST 900",
+        "mct_lct": "50:50"
+    },
+    {
+        "id": 29,
+        "title": "PEPTAMEN 1.0",
+        "mct_lct": "70:30"
+    },
+    {
+        "id": 30,
+        "title": "PEPTAMEN WITH PREBIO",
+        "mct_lct": "50:50"
+    },
+    {
+        "id": 43,
+        "title": "MODULEN IBD",
+        "mct_lct": "60:40"
+    },
+    {
+        "id": 44,
+        "title": "NUTREN JUNIOR",
+        "mct_lct": "60:40"
+    },
+    {
+        "id": 46,
+        "title": "PEPTAMEN JUNIOR",
+        "mct_lct": "68:32"
+    }
+]
+```
