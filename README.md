@@ -68,7 +68,7 @@ rails s
 ]
 ```
 2. Show page allows you to view just one formula with the nutritional overview and nutritional content details:
-    - GET localhost:3000/api/v1/formulas/1
+    - GET "localhost:3000/api/v1/formulas/1"
     - https://nurish-app.herokuapp.com/api/v1/formulas/1
 ```
 {
@@ -143,7 +143,7 @@ rails s
 }
 ```
 3. The filter allows dietitians to filter through formulary options:
-    - GET localhost:3000/api/v1/formulas?type=diabetes
+    - GET "localhost:3000/api/v1/formulas?type=diabetes"
     - https://nurish-app.herokuapp.com/api/v1/formulas?type=diabetes
 ```
 [
@@ -171,7 +171,7 @@ rails s
 ```
 
 4. Another filter is by allergens if a patient has an allergy the filter will review all ingredients and restrictions for any key words and only return formulas NOT containing the ingredient:
-    - localhost:3000/api/v1/formulas?allergens=soy
+    - GET "localhost:3000/api/v1/formulas?allergens=soy"
     - https://nurish-app.herokuapp.com/api/v1/formulas?allergens=soy
 ```
 [
@@ -309,3 +309,6 @@ rails s
     }
 ]
 ```
+6. The finally of app is the ability to do a universal search for all information in the formula and formula_overview table which allows users to search for certain information for all formulas:
+    - GET "localhost:3000/api/v1/search?key_word=boost"
+    - https://nurish-app.herokuapp.com/api/v1/search?key_word=boost
