@@ -1,5 +1,31 @@
 # Nūish Backend Rails
 
+This application allows dietitians to easily access formulary diets. In a day-to-day work life all dietitians that work with patients that recieve their nutrition via tube feeding, whether they are in the hospital or working in long-term care, look up different tube feeding formulas through a multiple booklets, or pamphlets depending on the brand. Below this is an example of one of the many booklets that the dietitian reviews (notice that you are not able to easily find information when you select command + F). This application allows dietitians to easily filter through formula by formula type (specialty or standard), allergy specifications, and MCT oil percentages, as well as a global search for any other specifications.
+
+Nestle formulas: https://www.nestlehealthscience.ca/en/resources/documents/2018%20nhs%20product%20guide_august%20updates.pdf
+
+<img width="960" alt="screen shot 2018-06-06 at 10 20 04 am" src="https://user-images.githubusercontent.com/34140107/41051422-51b5807a-6973-11e8-82b5-96447d9bbb96.png">
+
+## See It Live
+[Nurish](https://nurish-app-fe.herokuapp.com/) on Heroku
+
+## Back End Technologies
+* Ruby v. 2.4.1  
+* Rails v. 5.2.1
+
+## Primary JavaScript Technologies Used
+* React
+* React Router
+* Redux
+
+## Additional Libraries/FrameWorks
+* Semantic UI
+* Jest/Enzyme
+* RSpec
+* Factory Bot
+* PostgresSQL
+
+
 ## Initial Setup
 
 1. Clone this repository and rename the repository to `nurish_be` in one command
