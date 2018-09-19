@@ -147,26 +147,26 @@ rails s
     - https://nurish-app.herokuapp.com/api/v1/formulas?type=diabetes
 ```
 [
-{
-id: 4,
-title: "BOOST DIABETIC",
-description: "BOOST Diabetic is a great tasting, nutritionally complete formula designed to meet the needs of people with diabetes. A unique and calorically balanced blend of protein, fat and carbohydrates. Provides 17 g of carbohydrate per serving. For oral use.",
-usage: "Diabetes, Hyperglycemia, Glucose intolerance",
-ingredients: "WATER, MODIFIED MILK INGREDIENTS, TAPIOCA DEXTRIN, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), SOY PROTEIN ISOLATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, CALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, SUCRALOSE, ARTIFICIAL FLAVOUR, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
-hcpc: "B4154",
-restrictions: "CONTAINS MILK AND SOY",
-image: "Boost-Diabetic.png"
-},
-{
-id: 34,
-title: "RESOURCE DIABETIC",
-description: "Resource Diabetic is a high protein formula with 24% of calories from protein for people with diabetes. For oral and tube feeding use.",
-usage: "Diabetes, Impaired glucose tolerance, Stress-induced hyperglycemia, Modified carbohydrate requirements, Increased protein requirements",
-ingredients: "WATER, CORN SYRUP, SODIUM CASEINATE (FROM MILK), HIGH OLEIC SUNFLOWER OIL, FRUCTOSE, GROUND SOY COTYLEDON FIBRE, SOYBEAN OIL, CALCIUM CASEINATE, SOY PROTEIN ISOLATE, ARTIFICIAL FLAVOUR, TRICALCIUM PHOSPHATE, POTASSIUM CITRATE, MONOGLYCERIDES, MAGNESIUM CHLORIDE, POTASSIUM CHLORIDE, POTASSIUM HYDROXIDE, SODIUM PHOSPHATE, CHOLINE CHLORIDE, SODIUM ASCORBATE (VITAMIN C), L-CARNITINE, SODIUM CITRATE, INOSITOL, TAURINE, FERROUS SULPHATE (IRON), ZINC SULPHATE, NIACINAMIDE, ALPHA TOCOPHERYL ACETATE (VITAMIN E), CALCIUM PANTOTHENATE (PANTOTHENIC ACID), MANGANESE SULPHATE, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, COPPER SULPHATE, RIBOFLAVIN, THIAMINE MONONITRATE, BETA CAROTENE, VITAMIN A PALMITATE, SODIUM MOLYBDATE (MOLYBDENUM), BIOTIN, CHROMIUM CHLORIDE, POTASSIUM IODIDE (IODINE), SODIUM SELENATE (SELENIUM), VITAMIN K1, VITAMIN D3, CYANOCOBALAMIN, DIMETHYLPOLYSILOXANE.",
-hcpc: "B4150",
-restrictions: null,
-image: "Resource-Diabetic.png"
-}
+    {
+        "id": 4,
+        "title": "BOOST DIABETIC",
+        "description": "BOOST Diabetic is a great tasting, nutritionally complete formula designed to meet the needs of people with diabetes. A unique and calorically balanced blend of protein, fat and carbohydrates. Provides 17 g of carbohydrate per serving. For oral use.",
+        "usage": "Diabetes, Hyperglycemia, Glucose intolerance",
+        "ingredients": "WATER, MODIFIED MILK INGREDIENTS, TAPIOCA DEXTRIN, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), SOY PROTEIN ISOLATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, CALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, SUCRALOSE, ARTIFICIAL FLAVOUR, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "B4154",
+        "restrictions": "CONTAINS MILK AND SOY",
+        "image": "Boost-Diabetic.png"
+    },
+    {
+        "id": 34,
+        "title": "RESOURCE DIABETIC",
+        "description": "Resource Diabetic is a high protein formula with 24% of calories from protein for people with diabetes. For oral and tube feeding use.",
+        "usage": "Diabetes, Impaired glucose tolerance, Stress-induced hyperglycemia, Modified carbohydrate requirements, Increased protein requirements",
+        "ingredients": "WATER, CORN SYRUP, SODIUM CASEINATE (FROM MILK), HIGH OLEIC SUNFLOWER OIL, FRUCTOSE, GROUND SOY COTYLEDON FIBRE, SOYBEAN OIL, CALCIUM CASEINATE, SOY PROTEIN ISOLATE, ARTIFICIAL FLAVOUR, TRICALCIUM PHOSPHATE, POTASSIUM CITRATE, MONOGLYCERIDES, MAGNESIUM CHLORIDE, POTASSIUM CHLORIDE, POTASSIUM HYDROXIDE, SODIUM PHOSPHATE, CHOLINE CHLORIDE, SODIUM ASCORBATE (VITAMIN C), L-CARNITINE, SODIUM CITRATE, INOSITOL, TAURINE, FERROUS SULPHATE (IRON), ZINC SULPHATE, NIACINAMIDE, ALPHA TOCOPHERYL ACETATE (VITAMIN E), CALCIUM PANTOTHENATE (PANTOTHENIC ACID), MANGANESE SULPHATE, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, COPPER SULPHATE, RIBOFLAVIN, THIAMINE MONONITRATE, BETA CAROTENE, VITAMIN A PALMITATE, SODIUM MOLYBDATE (MOLYBDENUM), BIOTIN, CHROMIUM CHLORIDE, POTASSIUM IODIDE (IODINE), SODIUM SELENATE (SELENIUM), VITAMIN K1, VITAMIN D3, CYANOCOBALAMIN, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "B4150",
+        "restrictions": null,
+        "image": "Resource-Diabetic.png"
+    }
 ]
 ```
 
@@ -175,85 +175,85 @@ image: "Resource-Diabetic.png"
     - https://nurish-app.herokuapp.com/api/v1/formulas?allergens=soy
 ```
 [
-{
-id: 10,
-title: "BOOST PUDDING",
-description: "BOOST Pudding is great tasting and nutritionally complete in a pudding format. It can be used as a snack or dessert. For oral use.",
-usage: "Involuntary weight loss, Malnutrition, Fluid or volume restrictions, Poor appetite, Chewing or swallowing difficulties",
-ingredients: "WATER, CORN MALTODEXTRIN, SUGAR, MODIFIED MILK INGREDIENTS, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), MODIFIED CORN STARCH, SALT, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERRIC PYROPHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM CHLORIDE), SODIUM STEAROYL-2-LACTYLATE, NATURAL AND ARTIFICIAL FLAVOUR, CARRAGEENAN, STEVIA EXTRACT.",
-hcpc: "B4150",
-restrictions: "CONTAINS MILK.",
-image: "Boost-Pudding.png"
-},
-{
-id: 16,
-title: "COMPLEAT",
-description: "Compleat is the tube feeding formula with real food ingredients including chicken, carrots, peas, tomato, green beans, peaches and cranberry juice. This formula contains a blend of fibre and protein sources, and does not contain corn or soy. For tube feeding use.",
-usage: "Short or long term whole-protein tube feeding needs, Convenient alternative to homemade tube feeding, Nutrient-rich base for home blenderized tube feeding, Bowel function",
-ingredients: "WATER, BROWN RICE SYRUP, MILK PROTEIN, CANOLA OIL, DRIED CHICKEN MEAT, TOMATO PASTE, PEACH PURÉE CONCENTRATE, PEA PROTEIN ISOLATE, DRIED GREEN BEANS, PEA FIBRE, DRIED GREEN PEAS, DRIED CARROTS, ACACIA GUM, CRANBERRY JUICE CONCENTRATE, OLIGOFRUCTOSE, SALT, INULIN, ROSEMARY EXTRACT, L-CARNITINE, TAURINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, POTASSIUM HYDRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SILICON DIOXIDE, CITRIC ACID, DIMETHYLPOLYSILOXANE.",
-hcpc: "B4149",
-restrictions: "CONTAINS MILK.",
-image: "compleat-product-adult.png"
-},
-{
-id: 18,
-title: "ISOSOURCE 1.0 HP",
-description: "Isosource® 1.0 HP is a 1.0 Cal/ml, high protein formula with 25% of calories from protein. This formula does not contain fibre or soy ingredients. For oral and tube feeding use.",
-usage: "Standard, whole-protein tube feeding needs, Increased protein requirements, Recovery from illness, surgery, and burns, Pressure ulcers, Fibre restriction/contraindication",
-ingredients: "WATER, CORN SYRUP, MODIFIED MILK INGREDIENTS, CORN MALTODEXTRIN, CANOLA OIL, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), SALT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM CITRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
-hcpc: "B4150",
-restrictions: "CONTAINS MILK",
-image: "isosource1-0HP.png"
-},
-{
-id: 35,
-title: "RESOURCE THICKENUP",
-description: "Resource ThickenUp is a starch-based powdered thickener. Can be added to most hot and cold liquids and food.",
-usage: "Dysphagia",
-ingredients: "MODIFIED FOOD STARCH (CORN)",
-hcpc: "B4100",
-restrictions: "This product is only suitable for individuals greater than 3 years old.",
-image: "ThickenUp.png"
-},
-{
-id: 36,
-title: "RESOURCE THICKENUP CLEAR",
-description: "Resource ThickenUp Clear is a xanthan-based powdered thickener that remains clear, lump-free, tasteless, odourless, and maintains consistency over time after mixing. Resource ThickenUp Clear is clinically demonstrated to improve swallowing safety. Can be added to most hot and cold liquids.",
-usage: "Dysphagia",
-ingredients: "CORN AND POTATO MALTODEXTRIN, XANTHAN GUM, POTASSIUM CHLORIDE.",
-hcpc: "B4100",
-restrictions: "This product is only suitable for individuals greater than 3 years old.",
-image: "Resource-ThickenUp-clear.png"
-},
-{
-id: 38,
-title: "TOLOREX",
-description: "Tolerex is a powdered, nutritonally complete, elemental formula with 100% free amino acids providing 1.0 Cal/ml, with 8.2% protein equivalent and 1.7% calories from fat for the severely compromised GI tract. For oral and tube feeding use.",
-usage: "Severely impaired GI function: Severe protein and fat malabsorption, TPN alternative, Transition from TPN, Dual feeding with TPN",
-ingredients: "MALTODEXTRIN (FROM CORN) AND LESS THAN 2% OF MAGNESIUM GLUCONATE, L-GLUTAMINE, CALCIUM GLYCEROPHOSPHATE, MODIFIED CORNSTARCH, L-ARGININE ACETATE, L-ASPARTIC ACID, SAFFLOWER OIL, GLYCINE, L-LYSINE ACETATE, L-LEUCINE, L-PROLINE, POTASSIUM CHLORIDE, L-PHENYLALANINE, L-VALINE, POTASSIUM SORBATE (TO PRESERVE FRESHNESS), L-ALANINE, L-METHIONINE, L-ISOLEUCINE, L-THREONINE, POTASSIUM CITRATE, SODIUM PHOSPHATE, L-SERINE, L-HISTIDINE HYDROCHLORIDE, SODIUM CITRATE, L-TRYPTOPHAN, L-TYROSINE, ASCORBIC ACID (VITAMIN C), CHOLINE BITARTRATE, DL-ALPHA-TOCOPHERYL ACETATE (VITAMIN E), POLYSORBATE 80, FERROUS SULFATE (IRON), ZINC SULFATE, VITAMIN A PALMITATE, NIACINAMIDE, COPPER GLUCONATE, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), VITAMIN D3 (CHOLECALCIFEROL), ASCORBYL PALMITATE AND BHA AND BHT AND TOCOPHEROLS (TO PRESERVE FRESHNESS), MANGANESE SULFATE, PYRIDOXINE HYDROCHLORIDE (VITAMIN B6), THIAMINE HYDROCHLORIDE, RIBOFLAVIN, CHROMIUM CHLORIDE, FOLIC ACID, BIOTIN, SODIUM SELENITE (SELENIUM), POTASSIUM IODIDE (IODINE), VITAMIN K1 (PHYTONADIONE), SODIUM MOLYBDATE (MOLYBDENUM), VITAMIN B12 (CYANOCOBALAMIN)",
-hcpc: "B4156",
-restrictions: "This product is only suitable for individuals greater than 3 years old",
-image: "Tolerex.png"
-},
-{
-id: 40,
-title: "VIVONEX T-E-N",
-description: "Vivonex T·E·N is a powdered, nutritionally complete, elemental formula with 100% free amino acids providing 1.0 Cal/ml with 15% protein equivalent and 3% calories from fat for severely compromised GI tract. For oral and tube feeding use.",
-usage: "Severe protein and fat malabsorption, Extensive bowel resection, Early postoperative feeding, TPN alternative, Transition from TPN, Dual feeding with TPN",
-ingredients: "MALTODEXTRIN (FROM CORN), MODIFIED CORNSTARCH, L-LEUCINE AND LESS THAN 2% OF L-GLUTAMINE, MAGNESIUM GLUCONATE, L-ARGININE ACETATE, L-ISOLEUCINE, L-VALINE, CALCIUM GLYCEROPHOSPHATE, SAFFLOWER OIL, L-LYSINE ACETATE, L-ASPARTIC ACID, L-ALANINE, L-PHENYALANINE, L-PROLINE, SODIUM CITRATE, POTASSIUM CITRATE, GLYCINE, L-THREONINE, L-HISTIDINE HYDROCHLORIDE, L-SERINE, L-CYSTEINE HYDROCHLORIDE, L-METHIONINE, DISODIUM PHOSPHATE, POTASSIUM CHLORIDE, CHOLINE BITARTRATE, L-TRYPTOPHAN, L-TYROSINE, ASCORBIC ACID (VITAMIN C), TAURINE, POLYSORBATE 80, L-CARNITINE, DL-ALPHATOCOPHERYL ACETATE (VITAMIN E), ZINC SULFATE, FERROUS SULFATE (IRON), NIACINAMIDE, VITAMIN A PALMITATE, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), COPPER GLUCONATE, POTASSIUM SORBATE AND ASCORBYL PALMITATE AND TOCOPHEROLS AND BHA/BHT (TO HELP MAINTAIN FRESHNESS), PYRIDOXINE HYDROCHLORIDE (VITAMIN B6), MANGANESE SULFATE, VITAMIN D3 (CHOLECALCIFEROL), RIBOFLAVIN (VITAMIN B2), THIAMINE HYDROCHLORIDE (VITAMIN B1), CHROMIUM CHLORIDE, FOLIC ACID, BIOTIN, POTASSIUM IODIDE (IODINE), SODIUM MOLYBDATE (MOLYBDENUM), SODIUM SELENITE (SELENIUM), VITAMIN K1 (PHYTONADIONE), VITAMIN B12 (CYANOCOBALAMIN).",
-hcpc: "B4154",
-restrictions: "This product is only suitable for individuals greater than 3 years old.",
-image: "Vivonex_TEN.png"
-},
-{
-id: 41,
-title: "COMPLEAT PEDIATRIC",
-description: "Compleat Pediatric is a tube feeding formula with real food ingredients including chicken, peas, carrots, peaches, tomato, green beans, and cranberry juice for children ages 1-13 years. This formula contains a blend of fibre and protein sources, and does not contain corn or soy. For tube feeding use.",
-usage: "Convenient alternative to homemade tube feeding, Growth failure, Short or long-term tube feeding regimens, Nutrient-rich base for home blenderized tube feeding",
-ingredients: "WATER, BROWN RICE SYRUP, DRIED CHICKEN MEAT, CANOLA OIL, MILK PROTEIN, PEA PROTEIN ISOLATE, DRIED GREEN PEAS, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT/AND OR PALM KERNEL OIL), TOMATO PASTE, DRIED GREEN BEANS, PEACH PURÉE CONCENTRATE, PEA FIBRE, DRIED CARROTS, CRANBERRY JUICE CONCENTRATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, SALT, ROSEMARY EXTRACT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM CITRATE, SODIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, POTASSIUM HYDRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SILICON DIOXIDE, CITRIC ACID, DIMETHYLPOLYSILOXANE. ",
-hcpc: "B4149",
-restrictions: "CONTAINS MILK.",
-image: "compleat-pediatric.png"
-}
+    {
+        "id": 10,
+        "title": "BOOST PUDDING",
+        "description": "BOOST Pudding is great tasting and nutritionally complete in a pudding format. It can be used as a snack or dessert. For oral use.",
+        "usage": "Involuntary weight loss, Malnutrition, Fluid or volume restrictions, Poor appetite, Chewing or swallowing difficulties",
+        "ingredients": "WATER, CORN MALTODEXTRIN, SUGAR, MODIFIED MILK INGREDIENTS, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), MODIFIED CORN STARCH, SALT, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERRIC PYROPHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM CHLORIDE), SODIUM STEAROYL-2-LACTYLATE, NATURAL AND ARTIFICIAL FLAVOUR, CARRAGEENAN, STEVIA EXTRACT.",
+        "hcpc": "B4150",
+        "restrictions": "CONTAINS MILK.",
+        "image": "Boost-Pudding.png"
+    },
+    {
+        "id": 16,
+        "title": "COMPLEAT",
+        "description": "Compleat is the tube feeding formula with real food ingredients including chicken, carrots, peas, tomato, green beans, peaches and cranberry juice. This formula contains a blend of fibre and protein sources, and does not contain corn or soy. For tube feeding use.",
+        "usage": "Short or long term whole-protein tube feeding needs, Convenient alternative to homemade tube feeding, Nutrient-rich base for home blenderized tube feeding, Bowel function",
+        "ingredients": "WATER, BROWN RICE SYRUP, MILK PROTEIN, CANOLA OIL, DRIED CHICKEN MEAT, TOMATO PASTE, PEACH PURÉE CONCENTRATE, PEA PROTEIN ISOLATE, DRIED GREEN BEANS, PEA FIBRE, DRIED GREEN PEAS, DRIED CARROTS, ACACIA GUM, CRANBERRY JUICE CONCENTRATE, OLIGOFRUCTOSE, SALT, INULIN, ROSEMARY EXTRACT, L-CARNITINE, TAURINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, POTASSIUM HYDRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SILICON DIOXIDE, CITRIC ACID, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "B4149",
+        "restrictions": "CONTAINS MILK.",
+        "image": "compleat-product-adult.png"
+    },
+    {
+        "id": 18,
+        "title": "ISOSOURCE 1.0 HP",
+        "description": "Isosource® 1.0 HP is a 1.0 Cal/ml, high protein formula with 25% of calories from protein. This formula does not contain fibre or soy ingredients. For oral and tube feeding use.",
+        "usage": "Standard, whole-protein tube feeding needs, Increased protein requirements, Recovery from illness, surgery, and burns, Pressure ulcers, Fibre restriction/contraindication",
+        "ingredients": "WATER, CORN SYRUP, MODIFIED MILK INGREDIENTS, CORN MALTODEXTRIN, CANOLA OIL, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT AND/OR PALM KERNEL OIL), SALT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM CITRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "B4150",
+        "restrictions": "CONTAINS MILK",
+        "image": "isosource1-0HP.png"
+    },
+    {
+        "id": 35,
+        "title": "RESOURCE THICKENUP",
+        "description": "Resource ThickenUp is a starch-based powdered thickener. Can be added to most hot and cold liquids and food.",
+        "usage": "Dysphagia",
+        "ingredients": "MODIFIED FOOD STARCH (CORN)",
+        "hcpc": "B4100",
+        "restrictions": "This product is only suitable for individuals greater than 3 years old.",
+        "image": "ThickenUp.png"
+    },
+    {
+        "id": 36,
+        "title": "RESOURCE THICKENUP CLEAR",
+        "description": "Resource ThickenUp Clear is a xanthan-based powdered thickener that remains clear, lump-free, tasteless, odourless, and maintains consistency over time after mixing. Resource ThickenUp Clear is clinically demonstrated to improve swallowing safety. Can be added to most hot and cold liquids.",
+        "usage": "Dysphagia",
+        "ingredients": "CORN AND POTATO MALTODEXTRIN, XANTHAN GUM, POTASSIUM CHLORIDE.",
+        "hcpc": "B4100",
+        "restrictions": "This product is only suitable for individuals greater than 3 years old.",
+        "image": "Resource-ThickenUp-clear.png"
+    },
+    {
+        "id": 38,
+        "title": "TOLOREX",
+        "description": "Tolerex is a powdered, nutritonally complete, elemental formula with 100% free amino acids providing 1.0 Cal/ml, with 8.2% protein equivalent and 1.7% calories from fat for the severely compromised GI tract. For oral and tube feeding use.",
+        "usage": "Severely impaired GI function: Severe protein and fat malabsorption, TPN alternative, Transition from TPN, Dual feeding with TPN",
+        "ingredients": "MALTODEXTRIN (FROM CORN) AND LESS THAN 2% OF MAGNESIUM GLUCONATE, L-GLUTAMINE, CALCIUM GLYCEROPHOSPHATE, MODIFIED CORNSTARCH, L-ARGININE ACETATE, L-ASPARTIC ACID, SAFFLOWER OIL, GLYCINE, L-LYSINE ACETATE, L-LEUCINE, L-PROLINE, POTASSIUM CHLORIDE, L-PHENYLALANINE, L-VALINE, POTASSIUM SORBATE (TO PRESERVE FRESHNESS), L-ALANINE, L-METHIONINE, L-ISOLEUCINE, L-THREONINE, POTASSIUM CITRATE, SODIUM PHOSPHATE, L-SERINE, L-HISTIDINE HYDROCHLORIDE, SODIUM CITRATE, L-TRYPTOPHAN, L-TYROSINE, ASCORBIC ACID (VITAMIN C), CHOLINE BITARTRATE, DL-ALPHA-TOCOPHERYL ACETATE (VITAMIN E), POLYSORBATE 80, FERROUS SULFATE (IRON), ZINC SULFATE, VITAMIN A PALMITATE, NIACINAMIDE, COPPER GLUCONATE, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), VITAMIN D3 (CHOLECALCIFEROL), ASCORBYL PALMITATE AND BHA AND BHT AND TOCOPHEROLS (TO PRESERVE FRESHNESS), MANGANESE SULFATE, PYRIDOXINE HYDROCHLORIDE (VITAMIN B6), THIAMINE HYDROCHLORIDE, RIBOFLAVIN, CHROMIUM CHLORIDE, FOLIC ACID, BIOTIN, SODIUM SELENITE (SELENIUM), POTASSIUM IODIDE (IODINE), VITAMIN K1 (PHYTONADIONE), SODIUM MOLYBDATE (MOLYBDENUM), VITAMIN B12 (CYANOCOBALAMIN)",
+        "hcpc": "B4156",
+        "restrictions": "This product is only suitable for individuals greater than 3 years old",
+        "image": "Tolerex.png"
+    },
+    {
+        "id": 40,
+        "title": "VIVONEX T-E-N",
+        "description": "Vivonex T·E·N is a powdered, nutritionally complete, elemental formula with 100% free amino acids providing 1.0 Cal/ml with 15% protein equivalent and 3% calories from fat for severely compromised GI tract. For oral and tube feeding use.",
+        "usage": "Severe protein and fat malabsorption, Extensive bowel resection, Early postoperative feeding, TPN alternative, Transition from TPN, Dual feeding with TPN",
+        "ingredients": "MALTODEXTRIN (FROM CORN), MODIFIED CORNSTARCH, L-LEUCINE AND LESS THAN 2% OF L-GLUTAMINE, MAGNESIUM GLUCONATE, L-ARGININE ACETATE, L-ISOLEUCINE, L-VALINE, CALCIUM GLYCEROPHOSPHATE, SAFFLOWER OIL, L-LYSINE ACETATE, L-ASPARTIC ACID, L-ALANINE, L-PHENYALANINE, L-PROLINE, SODIUM CITRATE, POTASSIUM CITRATE, GLYCINE, L-THREONINE, L-HISTIDINE HYDROCHLORIDE, L-SERINE, L-CYSTEINE HYDROCHLORIDE, L-METHIONINE, DISODIUM PHOSPHATE, POTASSIUM CHLORIDE, CHOLINE BITARTRATE, L-TRYPTOPHAN, L-TYROSINE, ASCORBIC ACID (VITAMIN C), TAURINE, POLYSORBATE 80, L-CARNITINE, DL-ALPHATOCOPHERYL ACETATE (VITAMIN E), ZINC SULFATE, FERROUS SULFATE (IRON), NIACINAMIDE, VITAMIN A PALMITATE, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), COPPER GLUCONATE, POTASSIUM SORBATE AND ASCORBYL PALMITATE AND TOCOPHEROLS AND BHA/BHT (TO HELP MAINTAIN FRESHNESS), PYRIDOXINE HYDROCHLORIDE (VITAMIN B6), MANGANESE SULFATE, VITAMIN D3 (CHOLECALCIFEROL), RIBOFLAVIN (VITAMIN B2), THIAMINE HYDROCHLORIDE (VITAMIN B1), CHROMIUM CHLORIDE, FOLIC ACID, BIOTIN, POTASSIUM IODIDE (IODINE), SODIUM MOLYBDATE (MOLYBDENUM), SODIUM SELENITE (SELENIUM), VITAMIN K1 (PHYTONADIONE), VITAMIN B12 (CYANOCOBALAMIN).",
+        "hcpc": "B4154",
+        "restrictions": "This product is only suitable for individuals greater than 3 years old.",
+        "image": "Vivonex_TEN.png"
+    },
+    {
+        "id": 41,
+        "title": "COMPLEAT PEDIATRIC",
+        "description": "Compleat Pediatric is a tube feeding formula with real food ingredients including chicken, peas, carrots, peaches, tomato, green beans, and cranberry juice for children ages 1-13 years. This formula contains a blend of fibre and protein sources, and does not contain corn or soy. For tube feeding use.",
+        "usage": "Convenient alternative to homemade tube feeding, Growth failure, Short or long-term tube feeding regimens, Nutrient-rich base for home blenderized tube feeding",
+        "ingredients": "WATER, BROWN RICE SYRUP, DRIED CHICKEN MEAT, CANOLA OIL, MILK PROTEIN, PEA PROTEIN ISOLATE, DRIED GREEN PEAS, MEDIUM CHAIN TRIGLYCERIDES (FROM COCONUT/AND OR PALM KERNEL OIL), TOMATO PASTE, DRIED GREEN BEANS, PEACH PURÉE CONCENTRATE, PEA FIBRE, DRIED CARROTS, CRANBERRY JUICE CONCENTRATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, SALT, ROSEMARY EXTRACT, TAURINE, L-CARNITINE, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM CITRATE, SODIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, POTASSIUM HYDRATE, TRICALCIUM PHOSPHATE, TRIMAGNESIUM PHOSPHATE, MAGNESIUM OXIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENATE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SILICON DIOXIDE, CITRIC ACID, DIMETHYLPOLYSILOXANE. ",
+        "hcpc": "B4149",
+        "restrictions": "CONTAINS MILK.",
+        "image": "compleat-pediatric.png"
+    }
 ]
 ```
