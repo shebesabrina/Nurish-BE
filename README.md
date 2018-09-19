@@ -312,3 +312,117 @@ rails s
 6. The finally of app is the ability to do a universal search for all information in the formula and formula_overview table which allows users to search for certain information for all formulas:
     - GET "localhost:3000/api/v1/search?key_word=boost"
     - https://nurish-app.herokuapp.com/api/v1/search?key_word=boost
+```
+[
+    {
+        "id": 2,
+        "title": "BOOST Original",
+        "description": "BOOST Original is a great tasting, nutritionally complete, meal replacement that can be used as a snack or as a meal. No artificial flavours or colours. Natural source sweetener. For oral use. ",
+        "usage": "Poor appetite, Involuntary weight loss, malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery",
+        "ingredients": "WATER, CORN SYRUP, MILK PROTEIN, SUGAR, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER AND CORN), SOY PROTEIN, SALT, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, CALCIUM CARBONATE, TRICALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, FLAVOUR, CARRAGEENAN, STEVIA EXTRACT, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "B4150",
+        "restrictions": null,
+        "image": "Boost-Original.png"
+    },
+    {
+        "id": 3,
+        "title": "BOOST Powder",
+        "description": "BOOST Powder is a great tasting option, when mixed with milk or in smoothies, that provides a source of protein and other vitamins and minerals. It can be used with snacks or meals. For oral use",
+        "usage": "Skipped breakfast meal,  Inadequate oral intake",
+        "ingredients": "SKIM MILK POWDER, SUGAR, CORN MALTODEXTRIN, OLIGOFRUCTOSE, INULIN, LACTOSE, ARTIFICIAL FLAVOUR, CELLULOSE GUM, VITAMINS (VITAMIN A PALMITATE, ASCORBIC ACID, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE), MINERAL (FERRIC ORTHOPHOSPHATE).",
+        "hcpc": "",
+        "restrictions": "CONTAINS MILK, MAY CONTAIN SOY AND WHEAT",
+        "image": "Boost-Powder.png"
+    },
+    {
+        "id": 4,
+        "title": "BOOST DIABETIC",
+        "description": "BOOST Diabetic is a great tasting, nutritionally complete formula designed to meet the needs of people with diabetes. A unique and calorically balanced blend of protein, fat and carbohydrates. Provides 17 g of carbohydrate per serving. For oral use.",
+        "usage": "Diabetes, Hyperglycemia, Glucose intolerance",
+        "ingredients": "WATER, MODIFIED MILK INGREDIENTS, TAPIOCA DEXTRIN, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), SOY PROTEIN ISOLATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN), MINERALS (SODIUM CITRATE, POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, CALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, SUCRALOSE, ARTIFICIAL FLAVOUR, CARRAGEENAN, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "B4154",
+        "restrictions": "CONTAINS MILK AND SOY",
+        "image": "Boost-Diabetic.png"
+    },
+    {
+        "id": 5,
+        "title": "BOOST HIGH PROTEIN",
+        "description": "BOOST® High Protein is a great tasting, nutritionally complete formula with 15 g of protein per 237 ml that can be used as a snack or as a meal. For oral use",
+        "usage": "Chewing or swallowing difficulties, Fluid or volume restrictions, Poor appetite",
+        "ingredients": "WATER, CORN SYRUP, MODIFIED MILK INGREDIENTS, SUGAR, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), SOY PROTEIN ISOLATE, SALT, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACIN, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, MAGNESIUM CHLORIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), ARTIFICIAL FLAVOUR, CELLULOSE GEL AND GUM, SOY LECITHIN, CARRAGEENAN, STEVIA EXTRACT, DIMETHYLPOLYSILOXANE. ",
+        "hcpc": "B4150",
+        "restrictions": "CONTAINS MILK AND SOY",
+        "image": "Boost-HighProtein.png"
+    },
+    {
+        "id": 6,
+        "title": "BOOST PROTEIN +",
+        "description": "Boost Protein +™ shake is a great tasting, nutritionally complete formula with 27 g of protein per 325 ml that can be used as a meal. For oral use",
+        "usage": "Increased protein requirements when recovering from illness or surgery, Increased protein requirements during and after cancer treatment",
+        "ingredients": "WATER, MILK PROTEIN, SUGAR, CORN SYRUP, COCOA, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER AND CORN), SOY PROTEIN ISOLATE, SALT, VITAMINS (VITAMIN A PALMITATE, VITAMIN D3, DLALPHA-TOCOPHERYL ACETATE, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CHOLINE BITARTRATE), MINERALS (POTASSIUM CITRATE, MAGNESIUM PHOSPHATE, FERRIC PHOSPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), CELLULOSE GEL AND GUM, SOY LECITHIN, CARRAGEENAN, SUCRALOSE, NATURAL AND ARTIFICIAL FLAVOUR, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "B4152",
+        "restrictions": "CONTAINS MILK AND SOY.",
+        "image": "Boost-Protein+.png"
+    },
+    {
+        "id": 7,
+        "title": "BOOST JUST PROTEIN",
+        "description": "BOOST Just Protein™ is an unflavoured instant protein powder that is a modular whey protein source. Each 21 g serving provides 18 g of protein. It can be added to most foods, liquids and as a protein flush with tube feedings.",
+        "usage": "Increased protein requirements",
+        "ingredients": "WHEY PROTEIN ISOLATE [99%], SOY LECITHIN [1%].",
+        "hcpc": "",
+        "restrictions": "CONTAINS MILK AND SOY.",
+        "image": "Boost-JustProtein.png"
+    },
+    {
+        "id": 8,
+        "title": "BOOST PLUS CALORIES",
+        "description": "BOOST Plus Calories is a great tasting, nutritionally complete formula that can be used as a snack or as a meal. It provides a concentrated calorie source in a limited volume for patients with high energy needs. For oral use.",
+        "usage": "Malnutrition, Involuntary weight loss, Poor appetite, Increased energy needs, Fluid restriction/volume sensitivity",
+        "ingredients": "WATER, CORN SYRUP, SUGAR, MODIFIED MILK INGREDIENTS, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), SOY PROTEIN ISOLATE, ACACIA GUM, OLIGOFRUCTOSE, INULIN, SALT, VITAMINS (VITAMIN A PALMITATE, BETA-CAROTENE, VITAMIN D3, DL-ALPHA-TOCOPHERYL ACETATE, VITAMIN K1, ASCORBIC ACID, SODIUM ASCORBATE, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE BITARTRATE), MINERALS (POTASSIUM CITRATE, POTASSIUM HYDRATE, POTASSIUM CHLORIDE, TRICALCIUM PHOSPHATE, DIMAGNESIUM PHOSPHATE TRIHYDRATE, MAGNESIUM CHLORIDE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM TRICHLORIDE), SOY LECITHIN, CARRAGEENAN, ARTIFICIAL FLAVOUR, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "",
+        "restrictions": "CONTAINS MILK AND SOY",
+        "image": "Boost-PlusCalories.png"
+    },
+    {
+        "id": 9,
+        "title": "BOOST FRUIT FLAVORED BEVERAGE",
+        "description": "BOOST Fruit Flavoured Beverage is a great tasting, nutritionally complete clear liquid diet oral supplement; an alternative to milky formulas. For oral use.",
+        "usage": "Clear liquid diet needs, Fat malabsorption, Involuntary weight loss, Malnutrition, Reduced intake when recovering from illness or surgery, Reduced intake during and after cancer treatment, Reduced intake after oral surgery",
+        "ingredients": "WATER, LIQUID SUGAR, WHEY PROTEIN ISOLATE (MILK), PHOSPHORIC ACID, MAGNESIUM GLUCONATE, CITRIC ACID, SOYBEAN OIL, CHOLINE BITARTRATE, NATURAL FLAVOUR, CALCIUM CHLORIDE, COLOUR, L-CYSTEINE, POLYGLYCEROL ESTERS OF FATTY ACIDS, MANGANESE SULPHATE, FERROUS SULPHATE (IRON), COPPER GLUCONATE, ZINC SULPHATE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHA TOCOPHERYL ACETATE, VITAMIN K1, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NICOTINAMIDE, PYRIDOXINE HYDROCHLORIDE, FOLIC ACID, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), CYANOCOBALAMIN, BIOTIN.",
+        "hcpc": "B4155",
+        "restrictions": "CONTAINS MILK AND SOY.",
+        "image": "Boost-FruitBeverages.png"
+    },
+    {
+        "id": 10,
+        "title": "BOOST PUDDING",
+        "description": "BOOST Pudding is great tasting and nutritionally complete in a pudding format. It can be used as a snack or dessert. For oral use.",
+        "usage": "Involuntary weight loss, Malnutrition, Fluid or volume restrictions, Poor appetite, Chewing or swallowing difficulties",
+        "ingredients": "WATER, CORN MALTODEXTRIN, SUGAR, MODIFIED MILK INGREDIENTS, VEGETABLE OILS (CANOLA, HIGH OLEIC SUNFLOWER, CORN), MODIFIED CORN STARCH, SALT, VITAMINS (BETA-CAROTENE, VITAMIN A PALMITATE, VITAMIN D3, DL-ALPHATOCOPHERYL ACETATE, VITAMIN K1, SODIUM ASCORBATE, ASCORBIC ACID, THIAMINE HYDROCHLORIDE, RIBOFLAVIN, NIACINAMIDE, CALCIUM PANTOTHENATE, PYRIDOXINE HYDROCHLORIDE, BIOTIN, FOLIC ACID, CYANOCOBALAMIN, CHOLINE CHLORIDE), MINERALS (SODIUM PHOSPHATE, POTASSIUM CITRATE, POTASSIUM CHLORIDE, CALCIUM PHOSPHATE, MAGNESIUM PHOSPHATE, FERRIC PYROPHOSPHATE, FERROUS SULPHATE, ZINC SULPHATE, MANGANESE SULPHATE, COPPER SULPHATE, POTASSIUM IODIDE, SODIUM SELENITE, SODIUM MOLYBDATE, CHROMIUM CHLORIDE), SODIUM STEAROYL-2-LACTYLATE, NATURAL AND ARTIFICIAL FLAVOUR, CARRAGEENAN, STEVIA EXTRACT.",
+        "hcpc": "B4150",
+        "restrictions": "CONTAINS MILK.",
+        "image": "Boost-Pudding.png"
+    },
+    {
+        "id": 11,
+        "title": "BOOST 1.5",
+        "description": "BOOST 1.5 is a great tasting, nutritionally complete supplement that can be used as a snack or as a meal. It provides concentrated calories in a limited volume for patients with high energy needs. For oral use.",
+        "usage": "Malnutrition, Involuntary weight loss, Poor appetite, Increased energy needs, Fluid restriction/volume sensitivity, Reduced intake when recovering from surgery or illness, Reduced intake during and after cancer treatment",
+        "ingredients": "WATER, CORN SYRUP, SUGAR, SODIUM CASEINATE (FROM MILK), HIGH OLEIC SUNFLOWER OIL, SOY PROTEIN ISOLATE, CANOLA OIL, CALCIUM CASEINATE, POTASSIUM CITRATE, TRICALCIUM PHOSPHATE, NATURAL AND ARTIFICIAL FLAVOUR, SODIUM CITRATE, SOY LECITHIN, MAGNESIUM CHLORIDE, CELLULOSE GUM, MICROCRYSTALLINE CELLULOSE, CHOLINE CHLORIDE, ASCORBIC ACID, CARRAGEENAN, POTASSIUM HYDROXIDE, POTASSIUM CHLORIDE, ZINC SULPHATE, FERROUS SULPHATE (IRON), ALPHA-TOCOPHERYL ACETATE, NIACINAMIDE, CALCIUM PANTOTHENATE (PANTOTHENIC ACID), COPPER GLUCONATE, MANGANESE SULPHATE, PYRIDOXINE HYDROCHLORIDE, THIAMINE MONONITRATE, VITAMIN A PALMITATE, RIBOFLAVIN, CHROMIUM CHLORIDE, FOLIC ACID, BIOTIN, POTASSIUM IODIDE (IODINE), SODIUM MOLYBDATE (MOLYBDENUM), SODIUM SELENITE (SELENIUM), VITAMIN K1, CYANOCOBALAMIN, VITAMIN D3, DIMETHYLPOLYSILOXANE.",
+        "hcpc": "",
+        "restrictions": null,
+        "image": "Boost-1_5.png"
+    },
+    {
+        "id": 3,
+        "title": "BOOST Powder",
+        "description": "BOOST Powder is a great tasting option, when mixed with milk or in smoothies, that provides a source of protein and other vitamins and minerals. It can be used with snacks or meals. For oral use",
+        "usage": "Skipped breakfast meal,  Inadequate oral intake",
+        "ingredients": "SKIM MILK POWDER, SUGAR, CORN MALTODEXTRIN, OLIGOFRUCTOSE, INULIN, LACTOSE, ARTIFICIAL FLAVOUR, CELLULOSE GUM, VITAMINS (VITAMIN A PALMITATE, ASCORBIC ACID, THIAMINE MONONITRATE, RIBOFLAVIN, NIACINAMIDE), MINERAL (FERRIC ORTHOPHOSPHATE).",
+        "hcpc": "",
+        "restrictions": "CONTAINS MILK, MAY CONTAIN SOY AND WHEAT",
+        "image": "Boost-Powder.png"
+    }
+]
+```
