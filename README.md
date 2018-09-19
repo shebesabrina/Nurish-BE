@@ -4,7 +4,8 @@ This application allows dietitians to easily access formulary diets. In a day-to
 
 Nestle formulas: https://www.nestlehealthscience.ca/en/resources/documents/2018%20nhs%20product%20guide_august%20updates.pdf
 
-<img width="960" alt="screen shot 2018-06-06 at 10 20 04 am" src="https://user-images.githubusercontent.com/34140107/41051422-51b5807a-6973-11e8-82b5-96447d9bbb96.png">
+
+<img width="960" alt="filter_view.png" src="filter_view.png">
 
 ## See It Live
 [Nurish](https://nurish-app-fe.herokuapp.com/) on Heroku
